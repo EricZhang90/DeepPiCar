@@ -2,11 +2,24 @@ import cv2
 import logging
 import datetime
 import time
-import edgetpu.detection.engine
+
 from PIL import Image
 from traffic_objects import *
 
+from pycoral.utils import edgetpu
+
 _SHOW_IMAGE = False
+
+from pycoral.learn.imprinting.engine import ImprintingEngine
+from pycoral.adapters import classify
+from pycoral.adapters import common
+from pycoral.utils.dataset import read_label_file
+from pycoral.utils.edgetpu import make_interpreter
+
+from pycoral.adapters import common
+from pycoral.adapters import detect
+from pycoral.utils.dataset import read_label_file
+from pycoral.utils.edgetpu import make_interpreter
 
 
 class ObjectsOnRoadProcessor(object):
@@ -37,10 +50,13 @@ class ObjectsOnRoadProcessor(object):
         with open(label, 'r') as f:
             pairs = (l.strip().split(maxsplit=1) for l in f.readlines())
             self.labels = dict((int(k), v) for k, v in pairs)
+            
+        self.interpreter = make_interpreter(model)
+        self.interpreter.allocate_tensors()
 
         # initial edge TPU engine
         logging.info('Initialize Edge TPU with model %s...' % model)
-        self.engine = edgetpu.detection.engine.DetectionEngine(model)
+        #self.engine = edgetpu.detection.engine.DetectionEngine(model)
         self.min_confidence = 0.30
         self.num_of_objects = 3
         logging.info('Initialize Edge TPU with model done.')
@@ -131,14 +147,24 @@ class ObjectsOnRoadProcessor(object):
         start_ms = time.time()
         frame_RGB = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         img_pil = Image.fromarray(frame_RGB)
-        objects = self.engine.DetectWithImage(img_pil, threshold=self.min_confidence, keep_aspect_ratio=True,
-                                         relative_coord=False, top_k=self.num_of_objects)
+        #objects = self.engine.DetectWithImage(img_pil, threshold=self.min_confidence, keep_aspect_ratio=True,
+        #                                 relative_coord=False, top_k=self.num_of_objects)
+        _, scale = common.set_resized_input(
+                  self.interpreter,
+                  img_pil.size,
+                  lambda size: img_pil.resize(size, Image.ANTIALIAS)
+        )
+        
+        self.interpreter.invoke()
+        objects = detect.get_objects(self.interpreter, self.min_confidence, scale)
+        
+        
         if objects:
             for obj in objects:
-                height = obj.bounding_box[1][1]-obj.bounding_box[0][1]
-                width = obj.bounding_box[1][0]-obj.bounding_box[0][0]
+                height = obj.bbox[1][1]-obj.bbox[0][1]
+                width = obj.bbox[1][0]-obj.bbox[0][0]
                 logging.debug("%s, %.0f%% w=%.0f h=%.0f" % (self.labels[obj.label_id], obj.score * 100, width, height))
-                box = obj.bounding_box
+                box = bbox
                 coord_top_left = (int(box[0][0]), int(box[0][1]))
                 coord_bottom_right = (int(box[1][0]), int(box[1][1]))
                 cv2.rectangle(frame, coord_top_left, coord_bottom_right, self.boxColor, self.boxLineWidth)
