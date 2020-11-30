@@ -1,0 +1,3 @@
+1, all the picar libiraies are in:/usr/local/lib/python3.7/dist-packages/SunFounder_PiCar-1.0.1-py3.7.egg/picar
+2, https://github.com/sunfounder/SunFounder_PiCar/issues/8
+ Add pi4 fix.

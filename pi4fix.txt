@@ -1,0 +1,62 @@
+RPI_REVISION_0 = ["900092"]
+RPI_REVISION_1_MODULE_B = ["Beta", "0002", "0003", "0004", "0005", "0006", "000d", "000e", "000f"]
+RPI_REVISION_1_MODULE_A = ["0007", "0008", "0009",]
+RPI_REVISION_1_MODULE_BP = ["0010", "0013"]
+RPI_REVISION_1_MODULE_AP = ["0012"]
+RPI_REVISION_2_MODULE_B = ["a01041", "a21041"]
+RPI_REVISION_3_MODULE_B = ["a02082", "a22082"]
+RPI_REVISION_3_MODULE_BP = ["a020d3"]
+RPI_REVISION_4_MODULE_B = ["c03111"]
+
+_DEBUG = False
+_DEBUG_INFO = 'DEBUG "PCA9685.py":'
+
+def _get_bus_number(self):
+    pi_revision = self._get_pi_revision()
+    if   pi_revision == '0':
+        return 0
+    elif pi_revision == '1 Module B':
+        return 0
+    elif pi_revision == '1 Module A':
+        return 0
+    elif pi_revision == '1 Module B+':
+        return 1
+    elif pi_revision == '1 Module A+':
+        return 0
+    elif pi_revision == '2 Module B':
+        return 1
+    elif pi_revision == '3 Module B':
+        return 1
+    elif pi_revision == '3 Module B+':
+        return 1
+    elif pi_revision == '4 Module B':
+        return 1
+
+
+def _get_pi_revision(self):
+    "Gets the version number of the Raspberry Pi board"
+    # Courtesy quick2wire-python-api
+    # https://github.com/quick2wire/quick2wire-python-api
+    # Updated revision info from: http://elinux.org/RPi_HardwareHistory#Board_Revision_History
+    try:
+        f = open('/proc/cpuinfo','r')
+        for line in f:
+            if line.startswith('Revision'):
+                if line[11:-1] in self.RPI_REVISION_0:
+                    return '0'
+                elif line[11:-1] in self.RPI_REVISION_1_MODULE_B:
+                    return '1 Module B'
+                elif line[11:-1] in self.RPI_REVISION_1_MODULE_A:
+                    return '1 Module A'
+                elif line[11:-1] in self.RPI_REVISION_1_MODULE_BP:
+                    return '1 Module B+'
+                elif line[11:-1] in self.RPI_REVISION_1_MODULE_AP:
+                    return '1 Module A+'
+                elif line[11:-1] in self.RPI_REVISION_2_MODULE_B:
+                    return '2 Module B'
+                elif line[11:-1] in self.RPI_REVISION_3_MODULE_B:
+                    return '3 Module B'
+                elif line[11:-1] in self.RPI_REVISION_3_MODULE_BP:
+                    return '3 Module B+'
+	    elif line[11:-1] in self.RPI_REVISION_4_MODULE_B:
+                    return '4 Module B+'
