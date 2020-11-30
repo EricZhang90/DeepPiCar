@@ -5,10 +5,22 @@ import time
 import numpy as np
 import os
 import datetime
+import traceback 
 
-import edgetpu.detection.engine
+from pycoral.utils import edgetpu
+#import edgetpu.detection.engine
 import cv2
 from PIL import Image
+from pycoral.learn.imprinting.engine import ImprintingEngine
+from pycoral.adapters import classify
+from pycoral.adapters import common
+from pycoral.utils.dataset import read_label_file
+from pycoral.utils.edgetpu import make_interpreter
+
+from pycoral.adapters import common
+from pycoral.adapters import detect
+from pycoral.utils.dataset import read_label_file
+from pycoral.utils.edgetpu import make_interpreter
 
 def main():
     os.chdir('/home/pi/DeepPiCar/models/object_detection')
@@ -26,7 +38,10 @@ def main():
     with open(args.label, 'r') as f:
         pairs = (l.strip().split(maxsplit=1) for l in f.readlines())
         labels = dict((int(k), v) for k, v in pairs)
-
+    
+    interpreter = make_interpreter(*args.model.split('@'))
+    interpreter.allocate_tensors()
+    
     # initialize open cv
     IM_WIDTH = 640
     IM_HEIGHT = 480
@@ -48,7 +63,8 @@ def main():
     min_confidence = 0.20
     
     # initial classification engine
-    engine = edgetpu.detection.engine.DetectionEngine(args.model)
+    # engine = edgetpu.detection.engine.DetectionEngine(args.model)
+    # engine = ClassificationEngine(args.model)
     elapsed_ms = 0
     
     fourcc = cv2.VideoWriter_fourcc(*'XVID')
@@ -71,16 +87,23 @@ def main():
                 img_pil = Image.fromarray(input)
                 #input = cv2.resize(input, (width,height))
                 start_tf_ms = time.time()
-                results = engine.DetectWithImage(img_pil, threshold=min_confidence, keep_aspect_ratio=True,
-                                   relative_coord=False, top_k=5)
+                #results = engine.DetectWithImage(img_pil, threshold=min_confidence, keep_aspect_ratio=True,
+                 #                  relative_coord=False, top_k=5)
+                _, scale = common.set_resized_input(
+                  interpreter, img_pil.size, lambda size: img_pil.resize(size, Image.ANTIALIAS))
+                interpreter.invoke()
+                
+                #classes = classify.get_classes(
+                    #interpreter, 5, min_confidence)
+                objs = detect.get_objects(interpreter, min_confidence, scale)
                 end_tf_ms = time.time()
                 elapsed_tf_ms = end_tf_ms - start_ms
-                
-                if results :
-                    for obj in results:
-                        
-                        print("%s, %.0f%% %s %.2fms" % (labels[obj.label_id], obj.score *100, obj.bounding_box, elapsed_tf_ms * 1000))
-                        box = obj.bounding_box
+                i = 0
+                if objs :
+                    for obj in objs:
+                        i += 1
+                        print("[%d]: %s, %.0f%% %s %.2fms" % (i, labels[obj.id], obj.score *100, obj.bbox, elapsed_tf_ms * 1000))
+                        box = obj.bbox
                         coord_top_left = (int(box[0][0]), int(box[0][1]))
                         coord_bottom_right = (int(box[1][0]), int(box[1][1]))
                         cv2.rectangle(img, coord_top_left, coord_bottom_right, boxColor, boxLineWidth)
@@ -102,7 +125,7 @@ def main():
                 cv2.imshow('Detected Objects', img)
                 if cv2.waitKey(1) & 0xFF == ord('q'):
                     break
-            except:
+            except  Exception as e:
                 # catch it and don't exit the while loop
                 print('In except')
                 traceback.print_exc()
