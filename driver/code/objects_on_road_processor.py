@@ -99,8 +99,8 @@ class ObjectsOnRoadProcessor(object):
 
         contain_stop_sign = False
         for obj in objects:
-            obj_label = self.labels[obj.label_id]
-            processor = self.traffic_objects[obj.label_id]
+            obj_label = self.labels[obj.id]
+            processor = self.traffic_objects[obj.id]
             if processor.is_close_by(obj, self.height):
                 processor.set_car_state(car_state)
             else:
@@ -161,14 +161,18 @@ class ObjectsOnRoadProcessor(object):
         
         if objects:
             for obj in objects:
-                height = obj.bbox[1][1]-obj.bbox[0][1]
-                width = obj.bbox[1][0]-obj.bbox[0][0]
-                logging.debug("%s, %.0f%% w=%.0f h=%.0f" % (self.labels[obj.label_id], obj.score * 100, width, height))
+                #height = obj.bbox[1][1]-obj.bbox[0][1]
+                #width = obj.bbox[1][0]-obj.bbox[0][0]
+                height = obj.bbox[3]-obj.bbox[1]
+                width = obj.bbox[2]-obj.bbox[0]
+                logging.debug("%s, %.0f%% w=%.0f h=%.0f" % (self.labels[obj.id], obj.score * 100, width, height))
                 box = bbox
-                coord_top_left = (int(box[0][0]), int(box[0][1]))
-                coord_bottom_right = (int(box[1][0]), int(box[1][1]))
+                #coord_top_left = (int(box[0][0]), int(box[0][1]))
+                #coord_bottom_right = (int(box[1][0]), int(box[1][1]))
+                coord_top_left = (int(box[0]), int(box[1]))
+                coord_bottom_right = (int(box[2]), int(box[3]))
                 cv2.rectangle(frame, coord_top_left, coord_bottom_right, self.boxColor, self.boxLineWidth)
-                annotate_text = "%s %.0f%%" % (self.labels[obj.label_id], obj.score * 100)
+                annotate_text = "%s %.0f%%" % (self.labels[obj.id], obj.score * 100)
                 coord_top_left = (coord_top_left[0], coord_top_left[1] + 15)
                 cv2.putText(frame, annotate_text, coord_top_left, self.font, self.fontScale, self.boxColor, self.lineType)
         else:

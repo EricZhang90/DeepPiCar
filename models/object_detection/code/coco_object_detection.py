@@ -104,10 +104,12 @@ def main():
                         i += 1
                         print("[%d]: %s, %.0f%% %s %.2fms" % (i, labels[obj.id], obj.score *100, obj.bbox, elapsed_tf_ms * 1000))
                         box = obj.bbox
-                        coord_top_left = (int(box[0][0]), int(box[0][1]))
-                        coord_bottom_right = (int(box[1][0]), int(box[1][1]))
+                        #coord_top_left = (int(box[0][0]), int(box[0][1]))
+                        coord_top_left = (int(box[0]), int(box[1]))
+                        #coord_bottom_right = (int(box[1][0]), int(box[1][1]))
+                        coord_bottom_right = (int(box[2]), int(box[3]))
                         cv2.rectangle(img, coord_top_left, coord_bottom_right, boxColor, boxLineWidth)
-                        annotate_text = "%s, %.0f%%" % (labels[obj.label_id], obj.score * 100)
+                        annotate_text = "%s, %.0f%%" % (labels[obj.id], obj.score * 100)
                         coord_top_left = (coord_top_left[0],coord_top_left[1]+15)
                         cv2.putText(img, annotate_text, coord_top_left, font, fontScale, boxColor, lineType )
                     print('------')
