@@ -30,7 +30,8 @@ class ObjectsOnRoadProcessor(object):
 
     def __init__(self,
                  car=None,
-                 speed_limit=40,
+                 speed_limit=27, #Eric: set it to 8 instead
+                 # speed_limit=22,
                  model='/home/pi/DeepPiCar/models/object_detection/data/model_result/road_signs_quantized_edgetpu.tflite',
                  label='/home/pi/DeepPiCar/models/object_detection/data/model_result/road_sign_labels.txt',
                  width=640,
@@ -45,6 +46,9 @@ class ObjectsOnRoadProcessor(object):
         self.car = car
         self.speed_limit = speed_limit
         self.speed = speed_limit
+        
+        self.has_stopped = False
+        self.has_person = False
 
         # initialize TensorFlow models
         with open(label, 'r') as f:
@@ -82,26 +86,30 @@ class ObjectsOnRoadProcessor(object):
                                 5: StopSign()}
 
     def process_objects_on_road(self, frame):
+        #Eric
         # Main entry point of the Road Object Handler
-        logging.debug('Processing objects.................................')
+        #logging.debug('Processing objects.................................')
         objects, final_frame = self.detect_objects(frame)
         self.control_car(objects)
-        logging.debug('Processing objects END..............................')
+        #logging.debug('Processing objects END..............................')
 
         return final_frame
 
     def control_car(self, objects):
         logging.debug('Control car...')
+        s = self.speed_limit
         car_state = {"speed": self.speed_limit, "speed_limit": self.speed_limit}
 
         if len(objects) == 0:
             logging.debug('No objects detected, drive at speed limit of %s.' % self.speed_limit)
+        
 
         contain_stop_sign = False
         for obj in objects:
             obj_label = self.labels[obj.id]
             processor = self.traffic_objects[obj.id]
             if processor.is_close_by(obj, self.height):
+                logging.debug("obj id: %d" % obj.id )
                 processor.set_car_state(car_state)
             else:
                 logging.debug("[%s] object detected, but it is too far, ignoring. " % obj_label)
@@ -110,6 +118,14 @@ class ObjectsOnRoadProcessor(object):
 
         if not contain_stop_sign:
             self.traffic_objects[5].clear()
+        elif not self.has_stopped:
+                logging.debug("Stop sign is detected and it's closed")
+                
+                self.car.back_wheels.speed = 0
+                time.sleep(3)
+                self.car.back_wheels.speed = s
+                self.has_stopped = True
+            
 
         self.resume_driving(car_state)
 
@@ -117,16 +133,15 @@ class ObjectsOnRoadProcessor(object):
         old_speed = self.speed
         self.speed_limit = car_state['speed_limit']
         self.speed = car_state['speed']
-
-        if self.speed == 0:
-            self.set_speed(0)
-        else:
-            self.set_speed(self.speed_limit)
+#eric
+        self.set_speed(self.speed_limit)
+        
         logging.debug('Current Speed = %d, New Speed = %d' % (old_speed, self.speed))
 
         if self.speed == 0:
             logging.debug('full stop for 1 seconds')
-            time.sleep(1)
+            #Eric
+            
 
     def set_speed(self, speed):
         # Use this setter, so we can test this class without a car attached
@@ -141,7 +156,8 @@ class ObjectsOnRoadProcessor(object):
     # Frame processing steps
     ############################
     def detect_objects(self, frame):
-        logging.debug('Detecting objects...')
+        #Eric
+        #logging.debug('Detecting objects...')
 
         # call tpu for inference
         start_ms = time.time()
@@ -166,7 +182,7 @@ class ObjectsOnRoadProcessor(object):
                 height = obj.bbox[3]-obj.bbox[1]
                 width = obj.bbox[2]-obj.bbox[0]
                 logging.debug("%s, %.0f%% w=%.0f h=%.0f" % (self.labels[obj.id], obj.score * 100, width, height))
-                box = bbox
+                box = obj.bbox
                 #coord_top_left = (int(box[0][0]), int(box[0][1]))
                 #coord_bottom_right = (int(box[1][0]), int(box[1][1]))
                 coord_top_left = (int(box[0]), int(box[1]))
@@ -175,8 +191,9 @@ class ObjectsOnRoadProcessor(object):
                 annotate_text = "%s %.0f%%" % (self.labels[obj.id], obj.score * 100)
                 coord_top_left = (coord_top_left[0], coord_top_left[1] + 15)
                 cv2.putText(frame, annotate_text, coord_top_left, self.font, self.fontScale, self.boxColor, self.lineType)
-        else:
-            logging.debug('No object detected')
+        #Eric
+        #else:
+            #logging.debug('No object detected')
 
         elapsed_ms = time.time() - start_ms
 

@@ -69,6 +69,7 @@ def detect_edges(frame):
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
     show_image("hsv", hsv)
     lower_blue = np.array([30, 40, 0])
+    #lower_blue = np.array([60, 40, 40])
     upper_blue = np.array([150, 255, 255])
     mask = cv2.inRange(hsv, lower_blue, upper_blue)
     show_image("blue mask", mask)
@@ -127,11 +128,11 @@ def detect_line_segments(cropped_edges):
     min_threshold = 10  # minimal of votes
     line_segments = cv2.HoughLinesP(cropped_edges, rho, angle, min_threshold, np.array([]), minLineLength=8,
                                     maxLineGap=4)
-
-    if line_segments is not None:
-        for line_segment in line_segments:
-            logging.debug('detected line_segment:')
-            logging.debug("%s of length %s" % (line_segment, length_of_line_segment(line_segment[0])))
+    #eric
+    #if line_segments is not None:
+        #for line_segment in line_segments:
+            #logging.debug('detected line_segment:')
+            #logging.debug("%s of length %s" % (line_segment, length_of_line_segment(line_segment[0])))
 
     return line_segments
 
@@ -199,7 +200,7 @@ def compute_steering_angle(frame, lane_lines):
     else:
         _, _, left_x2, _ = lane_lines[0][0]
         _, _, right_x2, _ = lane_lines[1][0]
-        camera_mid_offset_percent = 0.02 # 0.0 means car pointing to center, -0.03: car is centered to left, +0.03 means car pointing to right
+        camera_mid_offset_percent = 0.00# 0.0 means car pointing to center, -0.03: car is centered to left, +0.03 means car pointing to right
         mid = int(width / 2 * (1 + camera_mid_offset_percent))
         x_offset = (left_x2 + right_x2) / 2 - mid
 

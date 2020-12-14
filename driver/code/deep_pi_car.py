@@ -4,6 +4,7 @@ import cv2
 import datetime
 from hand_coded_lane_follower import HandCodedLaneFollower
 from objects_on_road_processor import ObjectsOnRoadProcessor
+import time
 
 _SHOW_IMAGE = True
 
@@ -25,12 +26,12 @@ class DeepPiCar(object):
         self.camera.set(3, self.__SCREEN_WIDTH)
         self.camera.set(4, self.__SCREEN_HEIGHT)
 
-        self.pan_servo = picar.Servo.Servo(1, bus_number=1)
-        self.pan_servo.offset = -30  # calibrate servo to center
+        self.pan_servo = picar.Servo.Servo(3, bus_number=1)
+        self.pan_servo.offset = 0  # calibrate servo to center
         self.pan_servo.write(90)
 
-        self.tilt_servo = picar.Servo.Servo(2, bus_number=1)
-        self.tilt_servo.offset = 20  # calibrate servo to center
+        self.tilt_servo = picar.Servo.Servo(3, bus_number=1)
+        self.tilt_servo.offset = 0  # calibrate servo to center
         self.tilt_servo.write(90)
 
         logging.debug('Set up back wheels')
@@ -41,6 +42,7 @@ class DeepPiCar(object):
         self.front_wheels = picar.front_wheels.Front_Wheels()
         self.front_wheels.turning_offset = -25  # calibrate servo to center
         self.front_wheels.turn(90)  # Steering Range is 45 (left) - 90 (center) - 135 (right)
+
 
         self.lane_follower = HandCodedLaneFollower(self)
         self.traffic_sign_processor = ObjectsOnRoadProcessor(self)
@@ -93,13 +95,14 @@ class DeepPiCar(object):
         while self.camera.isOpened():
             _, image_lane = self.camera.read()
             image_objs = image_lane.copy()
+            
             i += 1
             self.video_orig.write(image_lane)
 
             image_objs = self.process_objects_on_road(image_objs)
             self.video_objs.write(image_objs)
             show_image('Detected Objects', image_objs)
-
+            
             image_lane = self.follow_lane(image_lane)
             self.video_lane.write(image_lane)
             show_image('Lane Lines', image_lane)
@@ -127,7 +130,8 @@ def show_image(title, frame, show=_SHOW_IMAGE):
 
 def main():
     with DeepPiCar() as car:
-        car.drive(40)
+        car.drive(10)
+        #car.drive(22)
 
 
 if __name__ == '__main__':

@@ -1,0 +1,1000 @@
+DEBUG:2020-12-07 12:16:23,504: detected line_segment:
+DEBUG:2020-12-07 12:16:23,505: [[290 120 318 156]] of length 45.60701700396552
+DEBUG:2020-12-07 12:16:23,506: detected line_segment:
+DEBUG:2020-12-07 12:16:23,507: [[ 74 239  75 219]] of length 20.024984394500787
+DEBUG:2020-12-07 12:16:23,508: detected line_segment:
+DEBUG:2020-12-07 12:16:23,509: [[300 131 319 156]] of length 31.400636936215164
+DEBUG:2020-12-07 12:16:23,510: detected line_segment:
+DEBUG:2020-12-07 12:16:23,511: [[255 207 263 227]] of length 21.540659228538015
+DEBUG:2020-12-07 12:16:23,512: detected line_segment:
+DEBUG:2020-12-07 12:16:23,513: [[ 63 209  71 194]] of length 17.0
+DEBUG:2020-12-07 12:16:23,514: detected line_segment:
+DEBUG:2020-12-07 12:16:23,515: [[243 239 265 234]] of length 22.561028345356956
+DEBUG:2020-12-07 12:16:23,516: detected line_segment:
+DEBUG:2020-12-07 12:16:23,517: [[227 140 249 190]] of length 54.62600113499065
+DEBUG:2020-12-07 12:16:23,518: detected line_segment:
+DEBUG:2020-12-07 12:16:23,519: [[ 63 211  72 208]] of length 9.486832980505138
+DEBUG:2020-12-07 12:16:23,520: detected line_segment:
+DEBUG:2020-12-07 12:16:23,521: [[249 239 265 236]] of length 16.278820596099706
+DEBUG:2020-12-07 12:16:23,522: detected line_segment:
+DEBUG:2020-12-07 12:16:23,523: [[ 79 208  81 198]] of length 10.198039027185569
+DEBUG:2020-12-07 12:16:23,524: detected line_segment:
+DEBUG:2020-12-07 12:16:23,525: [[ 60 207  71 204]] of length 11.40175425099138
+DEBUG:2020-12-07 12:16:23,526: detected line_segment:
+DEBUG:2020-12-07 12:16:23,701: [[217 121 221 130]] of length 9.848857801796104
+DEBUG:2020-12-07 12:16:23,702: detected line_segment:
+DEBUG:2020-12-07 12:16:23,703: [[257 214 265 235]] of length 22.47220505424423
+DEBUG:2020-12-07 12:16:23,704: detected line_segment:
+DEBUG:2020-12-07 12:16:23,706: [[ 76 218  77 210]] of length 8.06225774829855
+DEBUG:2020-12-07 12:16:23,746: lane lines: [[[70, 240, 91, 120]], [[289, 240, 231, 120]]]
+DEBUG:2020-12-07 12:16:23,752: steering...
+DEBUG:2020-12-07 12:16:23,753: new steering angle: 90
+INFO :2020-12-07 12:16:23,754: Proposed angle: 90, stabilized angle: 90
+DEBUG:2020-12-07 12:16:23,770: Processing objects.................................
+DEBUG:2020-12-07 12:16:23,770: Detecting objects...
+DEBUG:2020-12-07 12:16:23,828: No object detected
+DEBUG:2020-12-07 12:16:23,829: 17.5 FPS
+DEBUG:2020-12-07 12:16:23,830: Control car...
+DEBUG:2020-12-07 12:16:23,830: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:23,831: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:23,838: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:23,839: Processing objects END..............................
+DEBUG:2020-12-07 12:16:23,840: detecting lane lines...
+DEBUG:2020-12-07 12:16:23,876: detected line_segment:
+DEBUG:2020-12-07 12:16:23,878: [[ 75 226  99 120]] of length 108.6830253535482
+DEBUG:2020-12-07 12:16:23,879: detected line_segment:
+DEBUG:2020-12-07 12:16:23,880: [[217 120 257 210]] of length 98.48857801796105
+DEBUG:2020-12-07 12:16:23,881: detected line_segment:
+DEBUG:2020-12-07 12:16:23,882: [[291 121 317 153]] of length 41.23105625617661
+DEBUG:2020-12-07 12:16:23,883: detected line_segment:
+DEBUG:2020-12-07 12:16:23,884: [[257 211 266 238]] of length 28.460498941515414
+DEBUG:2020-12-07 12:16:23,885: detected line_segment:
+DEBUG:2020-12-07 12:16:23,886: [[227 140 247 185]] of length 49.24428900898052
+DEBUG:2020-12-07 12:16:23,887: detected line_segment:
+DEBUG:2020-12-07 12:16:23,888: [[251 198 256 210]] of length 13.0
+DEBUG:2020-12-07 12:16:23,889: detected line_segment:
+DEBUG:2020-12-07 12:16:23,890: [[ 67 212  70 204]] of length 8.54400374531753
+DEBUG:2020-12-07 12:16:23,891: detected line_segment:
+DEBUG:2020-12-07 12:16:23,892: [[ 74 239  75 227]] of length 12.041594578792296
+DEBUG:2020-12-07 12:16:23,892: detected line_segment:
+DEBUG:2020-12-07 12:16:23,894: [[302 135 319 156]] of length 27.018512172212592
+DEBUG:2020-12-07 12:16:23,916: lane lines: [[[71, 240, 89, 120]], [[292, 240, 234, 120]]]
+DEBUG:2020-12-07 12:16:24,022: steering...
+DEBUG:2020-12-07 12:16:24,023: new steering angle: 90
+INFO :2020-12-07 12:16:24,024: Proposed angle: 90, stabilized angle: 90
+DEBUG:2020-12-07 12:16:24,040: Processing objects.................................
+DEBUG:2020-12-07 12:16:24,042: Detecting objects...
+DEBUG:2020-12-07 12:16:24,102: No object detected
+DEBUG:2020-12-07 12:16:24,103: 16.5 FPS
+DEBUG:2020-12-07 12:16:24,105: Control car...
+DEBUG:2020-12-07 12:16:24,106: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:24,107: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:24,114: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:24,115: Processing objects END..............................
+DEBUG:2020-12-07 12:16:24,116: detecting lane lines...
+DEBUG:2020-12-07 12:16:24,146: detected line_segment:
+DEBUG:2020-12-07 12:16:24,148: [[ 75 221  99 120]] of length 103.81233067415451
+DEBUG:2020-12-07 12:16:24,149: detected line_segment:
+DEBUG:2020-12-07 12:16:24,150: [[290 120 319 156]] of length 46.22769732530488
+DEBUG:2020-12-07 12:16:24,151: detected line_segment:
+DEBUG:2020-12-07 12:16:24,152: [[231 150 241 170]] of length 22.360679774997898
+DEBUG:2020-12-07 12:16:24,153: detected line_segment:
+DEBUG:2020-12-07 12:16:24,156: [[249 193 263 226]] of length 35.84689665786984
+DEBUG:2020-12-07 12:16:24,157: detected line_segment:
+DEBUG:2020-12-07 12:16:24,158: [[216 120 235 157]] of length 41.593268686170845
+DEBUG:2020-12-07 12:16:24,159: detected line_segment:
+DEBUG:2020-12-07 12:16:24,160: [[295 125 315 150]] of length 32.01562118716424
+DEBUG:2020-12-07 12:16:24,161: detected line_segment:
+DEBUG:2020-12-07 12:16:24,162: [[247 187 255 205]] of length 19.697715603592208
+DEBUG:2020-12-07 12:16:24,163: detected line_segment:
+DEBUG:2020-12-07 12:16:24,164: [[ 63 211  71 194]] of length 18.788294228055936
+DEBUG:2020-12-07 12:16:24,164: detected line_segment:
+DEBUG:2020-12-07 12:16:24,167: [[ 73 237  77 217]] of length 20.396078054371138
+DEBUG:2020-12-07 12:16:24,168: detected line_segment:
+DEBUG:2020-12-07 12:16:24,169: [[241 173 249 189]] of length 17.88854381999832
+DEBUG:2020-12-07 12:16:24,170: detected line_segment:
+DEBUG:2020-12-07 12:16:24,172: [[ 72 195  81 200]] of length 10.295630140987
+DEBUG:2020-12-07 12:16:24,173: detected line_segment:
+DEBUG:2020-12-07 12:16:24,174: [[217 120 221 128]] of length 8.94427190999916
+DEBUG:2020-12-07 12:16:24,175: detected line_segment:
+DEBUG:2020-12-07 12:16:24,176: [[262 225 265 237]] of length 12.36931687685298
+DEBUG:2020-12-07 12:16:24,176: detected line_segment:
+DEBUG:2020-12-07 12:16:24,179: [[ 64 213  73 206]] of length 11.40175425099138
+DEBUG:2020-12-07 12:16:24,180: detected line_segment:
+DEBUG:2020-12-07 12:16:24,181: [[ 70 198  79 198]] of length 9.0
+DEBUG:2020-12-07 12:16:24,213: lane lines: [[[64, 240, 104, 120]], [[286, 240, 230, 120]]]
+DEBUG:2020-12-07 12:16:24,219: steering...
+DEBUG:2020-12-07 12:16:24,220: new steering angle: 91
+INFO :2020-12-07 12:16:24,220: Proposed angle: 91, stabilized angle: 91
+DEBUG:2020-12-07 12:16:24,236: Processing objects.................................
+DEBUG:2020-12-07 12:16:24,237: Detecting objects...
+DEBUG:2020-12-07 12:16:24,297: No object detected
+DEBUG:2020-12-07 12:16:24,298: 16.9 FPS
+DEBUG:2020-12-07 12:16:24,299: Control car...
+DEBUG:2020-12-07 12:16:24,299: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:24,300: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:24,308: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:24,309: Processing objects END..............................
+DEBUG:2020-12-07 12:16:24,310: detecting lane lines...
+DEBUG:2020-12-07 12:16:24,333: detected line_segment:
+DEBUG:2020-12-07 12:16:24,334: [[ 75 224  99 120]] of length 106.73331251301067
+DEBUG:2020-12-07 12:16:24,335: detected line_segment:
+DEBUG:2020-12-07 12:16:24,336: [[229 144 263 228]] of length 90.62008607367353
+DEBUG:2020-12-07 12:16:24,337: detected line_segment:
+DEBUG:2020-12-07 12:16:24,338: [[297 127 319 156]] of length 36.40054944640259
+DEBUG:2020-12-07 12:16:24,339: detected line_segment:
+DEBUG:2020-12-07 12:16:24,340: [[291 120 318 155]] of length 44.204072210600685
+DEBUG:2020-12-07 12:16:24,341: detected line_segment:
+DEBUG:2020-12-07 12:16:24,342: [[216 120 224 134]] of length 16.1245154965971
+DEBUG:2020-12-07 12:16:24,343: detected line_segment:
+DEBUG:2020-12-07 12:16:24,344: [[ 73 235  75 226]] of length 9.219544457292887
+DEBUG:2020-12-07 12:16:24,344: detected line_segment:
+DEBUG:2020-12-07 12:16:24,346: [[233 152 253 200]] of length 52.0
+DEBUG:2020-12-07 12:16:24,346: detected line_segment:
+DEBUG:2020-12-07 12:16:24,348: [[225 136 229 146]] of length 10.770329614269007
+DEBUG:2020-12-07 12:16:24,348: detected line_segment:
+DEBUG:2020-12-07 12:16:24,349: [[ 75 225  77 216]] of length 9.219544457292887
+DEBUG:2020-12-07 12:16:24,350: detected line_segment:
+DEBUG:2020-12-07 12:16:24,351: [[ 60 218  71 204]] of length 17.804493814764857
+DEBUG:2020-12-07 12:16:24,447: detected line_segment:
+DEBUG:2020-12-07 12:16:24,448: [[222 131 226 140]] of length 9.848857801796104
+DEBUG:2020-12-07 12:16:24,471: lane lines: [[[69, 240, 101, 120]], [[292, 240, 231, 120]]]
+DEBUG:2020-12-07 12:16:24,480: steering...
+DEBUG:2020-12-07 12:16:24,481: new steering angle: 91
+INFO :2020-12-07 12:16:24,481: Proposed angle: 91, stabilized angle: 91
+DEBUG:2020-12-07 12:16:24,510: Processing objects.................................
+DEBUG:2020-12-07 12:16:24,510: Detecting objects...
+DEBUG:2020-12-07 12:16:24,572: No object detected
+DEBUG:2020-12-07 12:16:24,573: 16.1 FPS
+DEBUG:2020-12-07 12:16:24,574: Control car...
+DEBUG:2020-12-07 12:16:24,575: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:24,576: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:24,583: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:24,584: Processing objects END..............................
+DEBUG:2020-12-07 12:16:24,585: detecting lane lines...
+DEBUG:2020-12-07 12:16:24,606: detected line_segment:
+DEBUG:2020-12-07 12:16:24,608: [[ 67 217  83 137]] of length 81.58431221748455
+DEBUG:2020-12-07 12:16:24,608: detected line_segment:
+DEBUG:2020-12-07 12:16:24,610: [[215 121 253 202]] of length 89.47066558375433
+DEBUG:2020-12-07 12:16:24,611: detected line_segment:
+DEBUG:2020-12-07 12:16:24,612: [[294 120 319 150]] of length 39.05124837953327
+DEBUG:2020-12-07 12:16:24,613: detected line_segment:
+DEBUG:2020-12-07 12:16:24,614: [[251 226 259 224]] of length 8.246211251235321
+DEBUG:2020-12-07 12:16:24,615: detected line_segment:
+DEBUG:2020-12-07 12:16:24,616: [[252 227 261 226]] of length 9.055385138137417
+DEBUG:2020-12-07 12:16:24,617: detected line_segment:
+DEBUG:2020-12-07 12:16:24,618: [[ 57 208  61 197]] of length 11.704699910719626
+DEBUG:2020-12-07 12:16:24,619: detected line_segment:
+DEBUG:2020-12-07 12:16:24,620: [[253 205 267 238]] of length 35.84689665786984
+DEBUG:2020-12-07 12:16:24,621: detected line_segment:
+DEBUG:2020-12-07 12:16:24,622: [[243 182 257 213]] of length 34.0147027033899
+DEBUG:2020-12-07 12:16:24,623: detected line_segment:
+DEBUG:2020-12-07 12:16:24,624: [[204 234 223 232]] of length 19.1049731745428
+DEBUG:2020-12-07 12:16:24,625: detected line_segment:
+DEBUG:2020-12-07 12:16:24,626: [[ 64 236  68 218]] of length 18.439088914585774
+DEBUG:2020-12-07 12:16:24,627: detected line_segment:
+DEBUG:2020-12-07 12:16:24,628: [[204 232 221 231]] of length 17.029386365926403
+DEBUG:2020-12-07 12:16:24,761: detected line_segment:
+DEBUG:2020-12-07 12:16:24,762: [[ 50 211  64 199]] of length 18.439088914585774
+DEBUG:2020-12-07 12:16:24,763: detected line_segment:
+DEBUG:2020-12-07 12:16:24,764: [[ 55 204  58 196]] of length 8.54400374531753
+DEBUG:2020-12-07 12:16:24,765: detected line_segment:
+DEBUG:2020-12-07 12:16:24,766: [[260 225 267 239]] of length 15.652475842498529
+DEBUG:2020-12-07 12:16:24,766: detected line_segment:
+DEBUG:2020-12-07 12:16:24,767: [[223 136 240 172]] of length 39.81205847478876
+DEBUG:2020-12-07 12:16:24,794: lane lines: [[[53, 240, 91, 120]], [[281, 240, 222, 120]]]
+DEBUG:2020-12-07 12:16:24,800: steering...
+DEBUG:2020-12-07 12:16:24,801: new steering angle: 87
+INFO :2020-12-07 12:16:24,801: Proposed angle: 87, stabilized angle: 87
+DEBUG:2020-12-07 12:16:24,816: Processing objects.................................
+DEBUG:2020-12-07 12:16:24,817: Detecting objects...
+DEBUG:2020-12-07 12:16:24,874: No object detected
+DEBUG:2020-12-07 12:16:24,875: 17.6 FPS
+DEBUG:2020-12-07 12:16:24,876: Control car...
+DEBUG:2020-12-07 12:16:24,876: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:24,877: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:24,885: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:24,886: Processing objects END..............................
+DEBUG:2020-12-07 12:16:24,887: detecting lane lines...
+DEBUG:2020-12-07 12:16:24,908: detected line_segment:
+DEBUG:2020-12-07 12:16:24,909: [[231 155 255 208]] of length 58.180752831155424
+DEBUG:2020-12-07 12:16:24,910: detected line_segment:
+DEBUG:2020-12-07 12:16:24,911: [[294 120 318 151]] of length 39.20459156782532
+DEBUG:2020-12-07 12:16:24,912: detected line_segment:
+DEBUG:2020-12-07 12:16:24,913: [[ 79 158  87 120]] of length 38.8329756778952
+DEBUG:2020-12-07 12:16:24,914: detected line_segment:
+DEBUG:2020-12-07 12:16:24,915: [[214 120 239 170]] of length 55.90169943749474
+DEBUG:2020-12-07 12:16:24,916: detected line_segment:
+DEBUG:2020-12-07 12:16:24,917: [[ 64 235  68 215]] of length 20.396078054371138
+DEBUG:2020-12-07 12:16:24,918: detected line_segment:
+DEBUG:2020-12-07 12:16:24,919: [[ 73 187  83 140]] of length 48.05205510693585
+DEBUG:2020-12-07 12:16:24,920: detected line_segment:
+DEBUG:2020-12-07 12:16:24,921: [[244 229 255 227]] of length 11.180339887498949
+DEBUG:2020-12-07 12:16:24,921: detected line_segment:
+DEBUG:2020-12-07 12:16:24,923: [[218 231 231 229]] of length 13.152946437965905
+DEBUG:2020-12-07 12:16:24,923: detected line_segment:
+DEBUG:2020-12-07 12:16:24,925: [[ 67 214  73 188]] of length 26.68332812825267
+DEBUG:2020-12-07 12:16:24,925: detected line_segment:
+DEBUG:2020-12-07 12:16:24,926: [[251 200 261 228]] of length 29.732137494637012
+DEBUG:2020-12-07 12:16:24,927: detected line_segment:
+DEBUG:2020-12-07 12:16:24,928: [[297 123 319 151]] of length 35.608987629529715
+DEBUG:2020-12-07 12:16:24,929: detected line_segment:
+DEBUG:2020-12-07 12:16:24,930: [[244 227 259 224]] of length 15.297058540778355
+DEBUG:2020-12-07 12:16:24,931: detected line_segment:
+DEBUG:2020-12-07 12:16:24,932: [[261 226 266 239]] of length 13.92838827718412
+DEBUG:2020-12-07 12:16:24,955: lane lines: [[[61, 240, 87, 120]], [[293, 240, 234, 120]]]
+DEBUG:2020-12-07 12:16:24,962: steering...
+DEBUG:2020-12-07 12:16:24,963: new steering angle: 89
+INFO :2020-12-07 12:16:24,963: Proposed angle: 89, stabilized angle: 89
+DEBUG:2020-12-07 12:16:24,979: Processing objects.................................
+DEBUG:2020-12-07 12:16:24,980: Detecting objects...
+DEBUG:2020-12-07 12:16:25,038: No object detected
+DEBUG:2020-12-07 12:16:25,038: 17.7 FPS
+DEBUG:2020-12-07 12:16:25,039: Control car...
+DEBUG:2020-12-07 12:16:25,040: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:25,041: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:25,048: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:25,049: Processing objects END..............................
+DEBUG:2020-12-07 12:16:25,050: detecting lane lines...
+DEBUG:2020-12-07 12:16:25,077: detected line_segment:
+DEBUG:2020-12-07 12:16:25,079: [[ 63 239  65 228]] of length 11.180339887498949
+DEBUG:2020-12-07 12:16:25,080: detected line_segment:
+DEBUG:2020-12-07 12:16:25,082: [[ 67 215  87 120]] of length 97.082439194738
+DEBUG:2020-12-07 12:16:25,083: detected line_segment:
+DEBUG:2020-12-07 12:16:25,085: [[235 161 259 220]] of length 63.694583757176716
+DEBUG:2020-12-07 12:16:25,086: detected line_segment:
+DEBUG:2020-12-07 12:16:25,089: [[232 229 245 228]] of length 13.038404810405298
+DEBUG:2020-12-07 12:16:25,090: detected line_segment:
+DEBUG:2020-12-07 12:16:25,092: [[229 148 237 168]] of length 21.540659228538015
+DEBUG:2020-12-07 12:16:25,093: detected line_segment:
+DEBUG:2020-12-07 12:16:25,094: [[295 121 317 148]] of length 34.828149534535996
+DEBUG:2020-12-07 12:16:25,095: detected line_segment:
+DEBUG:2020-12-07 12:16:25,098: [[226 232 261 226]] of length 35.510561809129406
+DEBUG:2020-12-07 12:16:25,099: detected line_segment:
+DEBUG:2020-12-07 12:16:25,102: [[215 121 223 139]] of length 19.697715603592208
+DEBUG:2020-12-07 12:16:25,103: detected line_segment:
+DEBUG:2020-12-07 12:16:25,104: [[308 138 319 151]] of length 17.029386365926403
+DEBUG:2020-12-07 12:16:25,105: detected line_segment:
+DEBUG:2020-12-07 12:16:25,107: [[259 223 266 239]] of length 17.46424919657298
+DEBUG:2020-12-07 12:16:25,107: detected line_segment:
+DEBUG:2020-12-07 12:16:25,109: [[ 65 235  69 213]] of length 22.360679774997898
+DEBUG:2020-12-07 12:16:25,110: detected line_segment:
+DEBUG:2020-12-07 12:16:25,111: [[ 71 201  73 189]] of length 12.165525060596439
+DEBUG:2020-12-07 12:16:25,112: detected line_segment:
+DEBUG:2020-12-07 12:16:25,113: [[242 227 258 224]] of length 16.278820596099706
+DEBUG:2020-12-07 12:16:25,114: detected line_segment:
+DEBUG:2020-12-07 12:16:25,115: [[ 58 205  61 197]] of length 8.54400374531753
+DEBUG:2020-12-07 12:16:25,115: detected line_segment:
+DEBUG:2020-12-07 12:16:25,117: [[225 141 231 155]] of length 15.231546211727817
+DEBUG:2020-12-07 12:16:25,153: lane lines: [[[61, 240, 85, 120]], [[288, 240, 229, 120]]]
+DEBUG:2020-12-07 12:16:25,167: steering...
+DEBUG:2020-12-07 12:16:25,168: new steering angle: 88
+INFO :2020-12-07 12:16:25,169: Proposed angle: 88, stabilized angle: 88
+DEBUG:2020-12-07 12:16:25,190: Processing objects.................................
+DEBUG:2020-12-07 12:16:25,191: Detecting objects...
+DEBUG:2020-12-07 12:16:25,248: No object detected
+DEBUG:2020-12-07 12:16:25,249: 17.7 FPS
+DEBUG:2020-12-07 12:16:25,250: Control car...
+DEBUG:2020-12-07 12:16:25,250: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:25,251: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:25,258: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:25,259: Processing objects END..............................
+DEBUG:2020-12-07 12:16:25,260: detecting lane lines...
+DEBUG:2020-12-07 12:16:25,281: detected line_segment:
+DEBUG:2020-12-07 12:16:25,282: [[ 77 172  87 120]] of length 52.952809179494906
+DEBUG:2020-12-07 12:16:25,283: detected line_segment:
+DEBUG:2020-12-07 12:16:25,284: [[249 196 267 239]] of length 46.61544808322666
+DEBUG:2020-12-07 12:16:25,285: detected line_segment:
+DEBUG:2020-12-07 12:16:25,286: [[235 164 255 208]] of length 48.33218389437829
+DEBUG:2020-12-07 12:16:25,287: detected line_segment:
+DEBUG:2020-12-07 12:16:25,288: [[ 68 216  74 182]] of length 34.52535300326414
+DEBUG:2020-12-07 12:16:25,289: detected line_segment:
+DEBUG:2020-12-07 12:16:25,290: [[215 121 241 174]] of length 59.033888572581766
+DEBUG:2020-12-07 12:16:25,291: detected line_segment:
+DEBUG:2020-12-07 12:16:25,292: [[ 65 234  69 211]] of length 23.345235059857504
+DEBUG:2020-12-07 12:16:25,293: detected line_segment:
+DEBUG:2020-12-07 12:16:25,294: [[244 228 259 226]] of length 15.132745950421556
+DEBUG:2020-12-07 12:16:25,294: detected line_segment:
+DEBUG:2020-12-07 12:16:25,296: [[294 120 318 151]] of length 39.20459156782532
+DEBUG:2020-12-07 12:16:25,296: detected line_segment:
+DEBUG:2020-12-07 12:16:25,298: [[248 226 259 224]] of length 11.180339887498949
+DEBUG:2020-12-07 12:16:25,298: detected line_segment:
+DEBUG:2020-12-07 12:16:25,299: [[298 124 319 151]] of length 34.20526275297414
+DEBUG:2020-12-07 12:16:25,300: detected line_segment:
+DEBUG:2020-12-07 12:16:25,301: [[ 75 181  78 163]] of length 18.24828759089466
+DEBUG:2020-12-07 12:16:25,302: detected line_segment:
+DEBUG:2020-12-07 12:16:25,303: [[259 222 265 237]] of length 16.15549442140351
+DEBUG:2020-12-07 12:16:25,304: detected line_segment:
+DEBUG:2020-12-07 12:16:25,305: [[231 155 241 175]] of length 22.360679774997898
+DEBUG:2020-12-07 12:16:25,306: detected line_segment:
+DEBUG:2020-12-07 12:16:25,421: [[ 57 207  61 197]] of length 10.770329614269007
+DEBUG:2020-12-07 12:16:25,450: lane lines: [[[62, 240, 86, 120]], [[291, 240, 230, 120]]]
+DEBUG:2020-12-07 12:16:25,457: steering...
+DEBUG:2020-12-07 12:16:25,458: new steering angle: 88
+INFO :2020-12-07 12:16:25,458: Proposed angle: 88, stabilized angle: 88
+DEBUG:2020-12-07 12:16:25,473: Processing objects.................................
+DEBUG:2020-12-07 12:16:25,474: Detecting objects...
+DEBUG:2020-12-07 12:16:25,531: No object detected
+DEBUG:2020-12-07 12:16:25,532: 17.3 FPS
+DEBUG:2020-12-07 12:16:25,533: Control car...
+DEBUG:2020-12-07 12:16:25,534: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:25,535: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:25,542: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:25,543: Processing objects END..............................
+DEBUG:2020-12-07 12:16:25,544: detecting lane lines...
+DEBUG:2020-12-07 12:16:25,565: detected line_segment:
+DEBUG:2020-12-07 12:16:25,566: [[ 73 234  99 120]] of length 116.92732785794773
+DEBUG:2020-12-07 12:16:25,567: detected line_segment:
+DEBUG:2020-12-07 12:16:25,568: [[235 157 253 202]] of length 48.46648326421054
+DEBUG:2020-12-07 12:16:25,569: detected line_segment:
+DEBUG:2020-12-07 12:16:25,571: [[290 120 319 156]] of length 46.22769732530488
+DEBUG:2020-12-07 12:16:25,571: detected line_segment:
+DEBUG:2020-12-07 12:16:25,573: [[253 200 263 228]] of length 29.732137494637012
+DEBUG:2020-12-07 12:16:25,573: detected line_segment:
+DEBUG:2020-12-07 12:16:25,575: [[216 120 233 153]] of length 37.12142238654117
+DEBUG:2020-12-07 12:16:25,575: detected line_segment:
+DEBUG:2020-12-07 12:16:25,577: [[ 85 177  87 168]] of length 9.219544457292887
+DEBUG:2020-12-07 12:16:25,577: detected line_segment:
+DEBUG:2020-12-07 12:16:25,579: [[ 65 215  68 204]] of length 11.40175425099138
+DEBUG:2020-12-07 12:16:25,579: detected line_segment:
+DEBUG:2020-12-07 12:16:25,581: [[ 89 160  98 121]] of length 40.024992192379
+DEBUG:2020-12-07 12:16:25,581: detected line_segment:
+DEBUG:2020-12-07 12:16:25,583: [[229 146 239 169]] of length 25.079872407968907
+DEBUG:2020-12-07 12:16:25,583: detected line_segment:
+DEBUG:2020-12-07 12:16:25,585: [[251 236 265 237]] of length 14.035668847618199
+DEBUG:2020-12-07 12:16:25,585: detected line_segment:
+DEBUG:2020-12-07 12:16:25,587: [[ 69 198  81 195]] of length 12.36931687685298
+DEBUG:2020-12-07 12:16:25,587: detected line_segment:
+DEBUG:2020-12-07 12:16:25,735: [[ 75 221  81 192]] of length 29.614185789921695
+DEBUG:2020-12-07 12:16:25,736: detected line_segment:
+DEBUG:2020-12-07 12:16:25,737: [[257 213 266 239]] of length 27.51363298439521
+DEBUG:2020-12-07 12:16:25,761: lane lines: [[[66, 240, 99, 120]], [[280, 240, 219, 120]]]
+DEBUG:2020-12-07 12:16:25,767: steering...
+DEBUG:2020-12-07 12:16:25,768: new steering angle: 89
+INFO :2020-12-07 12:16:25,768: Proposed angle: 89, stabilized angle: 89
+DEBUG:2020-12-07 12:16:25,783: Processing objects.................................
+DEBUG:2020-12-07 12:16:25,784: Detecting objects...
+DEBUG:2020-12-07 12:16:25,842: No object detected
+DEBUG:2020-12-07 12:16:25,842: 17.3 FPS
+DEBUG:2020-12-07 12:16:25,844: Control car...
+DEBUG:2020-12-07 12:16:25,844: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:25,845: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:25,853: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:25,853: Processing objects END..............................
+DEBUG:2020-12-07 12:16:25,855: detecting lane lines...
+DEBUG:2020-12-07 12:16:25,877: detected line_segment:
+DEBUG:2020-12-07 12:16:25,879: [[ 73 231  98 122]] of length 111.83022847155415
+DEBUG:2020-12-07 12:16:25,880: detected line_segment:
+DEBUG:2020-12-07 12:16:25,881: [[239 166 263 229]] of length 67.4166151627327
+DEBUG:2020-12-07 12:16:25,881: detected line_segment:
+DEBUG:2020-12-07 12:16:25,883: [[290 120 318 156]] of length 45.60701700396552
+DEBUG:2020-12-07 12:16:25,883: detected line_segment:
+DEBUG:2020-12-07 12:16:25,885: [[216 120 233 153]] of length 37.12142238654117
+DEBUG:2020-12-07 12:16:25,885: detected line_segment:
+DEBUG:2020-12-07 12:16:25,886: [[229 147 239 167]] of length 22.360679774997898
+DEBUG:2020-12-07 12:16:25,887: detected line_segment:
+DEBUG:2020-12-07 12:16:25,888: [[ 73 235  75 224]] of length 11.180339887498949
+DEBUG:2020-12-07 12:16:25,889: detected line_segment:
+DEBUG:2020-12-07 12:16:25,890: [[ 80 180  87 172]] of length 10.63014581273465
+DEBUG:2020-12-07 12:16:25,891: detected line_segment:
+DEBUG:2020-12-07 12:16:25,892: [[299 130 319 156]] of length 32.802438933713454
+DEBUG:2020-12-07 12:16:25,893: detected line_segment:
+DEBUG:2020-12-07 12:16:25,894: [[ 59 217  70 204]] of length 17.029386365926403
+DEBUG:2020-12-07 12:16:25,894: detected line_segment:
+DEBUG:2020-12-07 12:16:25,896: [[ 64 216  72 204]] of length 14.422205101855956
+DEBUG:2020-12-07 12:16:25,896: detected line_segment:
+DEBUG:2020-12-07 12:16:25,898: [[ 62 216  64 205]] of length 11.180339887498949
+DEBUG:2020-12-07 12:16:25,898: detected line_segment:
+DEBUG:2020-12-07 12:16:25,900: [[260 222 265 238]] of length 16.76305461424021
+DEBUG:2020-12-07 12:16:25,922: lane lines: [[[61, 240, 98, 120]], [[294, 240, 235, 120]]]
+DEBUG:2020-12-07 12:16:25,929: steering...
+DEBUG:2020-12-07 12:16:25,930: new steering angle: 91
+INFO :2020-12-07 12:16:25,930: Proposed angle: 91, stabilized angle: 91
+DEBUG:2020-12-07 12:16:25,945: Processing objects.................................
+DEBUG:2020-12-07 12:16:25,946: Detecting objects...
+DEBUG:2020-12-07 12:16:26,004: No object detected
+DEBUG:2020-12-07 12:16:26,005: 17.2 FPS
+DEBUG:2020-12-07 12:16:26,006: Control car...
+DEBUG:2020-12-07 12:16:26,007: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:26,007: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:26,015: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:26,015: Processing objects END..............................
+DEBUG:2020-12-07 12:16:26,017: detecting lane lines...
+DEBUG:2020-12-07 12:16:26,039: detected line_segment:
+DEBUG:2020-12-07 12:16:26,041: [[ 73 231  98 121]] of length 112.80514172678478
+DEBUG:2020-12-07 12:16:26,042: detected line_segment:
+DEBUG:2020-12-07 12:16:26,043: [[290 120 318 156]] of length 45.60701700396552
+DEBUG:2020-12-07 12:16:26,043: detected line_segment:
+DEBUG:2020-12-07 12:16:26,045: [[225 136 257 211]] of length 81.54140052758476
+DEBUG:2020-12-07 12:16:26,045: detected line_segment:
+DEBUG:2020-12-07 12:16:26,047: [[257 215 265 237]] of length 23.40939982143925
+DEBUG:2020-12-07 12:16:26,047: detected line_segment:
+DEBUG:2020-12-07 12:16:26,048: [[247 189 263 228]] of length 42.15447781671598
+DEBUG:2020-12-07 12:16:26,049: detected line_segment:
+DEBUG:2020-12-07 12:16:26,050: [[295 125 319 156]] of length 39.20459156782532
+DEBUG:2020-12-07 12:16:26,051: detected line_segment:
+DEBUG:2020-12-07 12:16:26,052: [[ 59 217  70 204]] of length 17.029386365926403
+DEBUG:2020-12-07 12:16:26,053: detected line_segment:
+DEBUG:2020-12-07 12:16:26,054: [[216 121 226 140]] of length 21.470910553583888
+DEBUG:2020-12-07 12:16:26,054: detected line_segment:
+DEBUG:2020-12-07 12:16:26,055: [[ 65 214  69 204]] of length 10.770329614269007
+DEBUG:2020-12-07 12:16:26,074: lane lines: [[[61, 240, 105, 120]], [[294, 240, 234, 120]]]
+DEBUG:2020-12-07 12:16:26,080: steering...
+DEBUG:2020-12-07 12:16:26,081: new steering angle: 93
+INFO :2020-12-07 12:16:26,082: Proposed angle: 93, stabilized angle: 93
+DEBUG:2020-12-07 12:16:26,097: Processing objects.................................
+DEBUG:2020-12-07 12:16:26,098: Detecting objects...
+DEBUG:2020-12-07 12:16:26,163: No object detected
+DEBUG:2020-12-07 12:16:26,164: 15.3 FPS
+DEBUG:2020-12-07 12:16:26,165: Control car...
+DEBUG:2020-12-07 12:16:26,166: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:26,166: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:26,174: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:26,174: Processing objects END..............................
+DEBUG:2020-12-07 12:16:26,176: detecting lane lines...
+DEBUG:2020-12-07 12:16:26,198: detected line_segment:
+DEBUG:2020-12-07 12:16:26,200: [[ 75 223  98 121]] of length 104.5609869884557
+DEBUG:2020-12-07 12:16:26,200: detected line_segment:
+DEBUG:2020-12-07 12:16:26,202: [[291 121 319 156]] of length 44.82186966202994
+DEBUG:2020-12-07 12:16:26,203: detected line_segment:
+DEBUG:2020-12-07 12:16:26,204: [[225 136 257 211]] of length 81.54140052758476
+DEBUG:2020-12-07 12:16:26,204: detected line_segment:
+DEBUG:2020-12-07 12:16:26,206: [[221 129 231 151]] of length 24.166091947189145
+DEBUG:2020-12-07 12:16:26,207: detected line_segment:
+DEBUG:2020-12-07 12:16:26,208: [[ 57 218  67 212]] of length 11.661903789690601
+DEBUG:2020-12-07 12:16:26,209: detected line_segment:
+DEBUG:2020-12-07 12:16:26,210: [[251 198 263 227]] of length 31.38470965295043
+DEBUG:2020-12-07 12:16:26,211: detected line_segment:
+DEBUG:2020-12-07 12:16:26,212: [[217 121 222 133]] of length 13.0
+DEBUG:2020-12-07 12:16:26,213: detected line_segment:
+DEBUG:2020-12-07 12:16:26,214: [[ 62 216  65 204]] of length 12.36931687685298
+DEBUG:2020-12-07 12:16:26,215: detected line_segment:
+DEBUG:2020-12-07 12:16:26,216: [[259 219 263 229]] of length 10.770329614269007
+DEBUG:2020-12-07 12:16:26,236: lane lines: [[[61, 240, 100, 120]], [[279, 240, 224, 120]]]
+DEBUG:2020-12-07 12:16:26,243: steering...
+DEBUG:2020-12-07 12:16:26,244: new steering angle: 90
+INFO :2020-12-07 12:16:26,244: Proposed angle: 90, stabilized angle: 90
+DEBUG:2020-12-07 12:16:26,262: Processing objects.................................
+DEBUG:2020-12-07 12:16:26,264: Detecting objects...
+DEBUG:2020-12-07 12:16:26,328: No object detected
+DEBUG:2020-12-07 12:16:26,329: 15.8 FPS
+DEBUG:2020-12-07 12:16:26,330: Control car...
+DEBUG:2020-12-07 12:16:26,331: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:26,375: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:26,384: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:26,385: Processing objects END..............................
+DEBUG:2020-12-07 12:16:26,388: detecting lane lines...
+DEBUG:2020-12-07 12:16:26,415: detected line_segment:
+DEBUG:2020-12-07 12:16:26,416: [[ 73 232  98 121]] of length 113.78049041905207
+DEBUG:2020-12-07 12:16:26,418: detected line_segment:
+DEBUG:2020-12-07 12:16:26,419: [[217 121 247 185]] of length 70.68238818828917
+DEBUG:2020-12-07 12:16:26,420: detected line_segment:
+DEBUG:2020-12-07 12:16:26,421: [[291 121 319 156]] of length 44.82186966202994
+DEBUG:2020-12-07 12:16:26,422: detected line_segment:
+DEBUG:2020-12-07 12:16:26,423: [[243 177 251 199]] of length 23.40939982143925
+DEBUG:2020-12-07 12:16:26,424: detected line_segment:
+DEBUG:2020-12-07 12:16:26,426: [[263 231 265 239]] of length 8.246211251235321
+DEBUG:2020-12-07 12:16:26,426: detected line_segment:
+DEBUG:2020-12-07 12:16:26,428: [[249 190 263 229]] of length 41.43669871020132
+DEBUG:2020-12-07 12:16:26,430: detected line_segment:
+DEBUG:2020-12-07 12:16:26,431: [[ 73 235  75 224]] of length 11.180339887498949
+DEBUG:2020-12-07 12:16:26,432: detected line_segment:
+DEBUG:2020-12-07 12:16:26,434: [[ 75 219  77 210]] of length 9.219544457292887
+DEBUG:2020-12-07 12:16:26,435: detected line_segment:
+DEBUG:2020-12-07 12:16:26,436: [[ 66 213  69 204]] of length 9.486832980505138
+DEBUG:2020-12-07 12:16:26,438: detected line_segment:
+DEBUG:2020-12-07 12:16:26,439: [[ 70 198  78 196]] of length 8.246211251235321
+DEBUG:2020-12-07 12:16:26,440: detected line_segment:
+DEBUG:2020-12-07 12:16:26,442: [[259 220 263 230]] of length 10.770329614269007
+DEBUG:2020-12-07 12:16:26,466: lane lines: [[[66, 240, 100, 120]], [[276, 240, 230, 120]]]
+DEBUG:2020-12-07 12:16:26,473: steering...
+DEBUG:2020-12-07 12:16:26,474: new steering angle: 90
+INFO :2020-12-07 12:16:26,475: Proposed angle: 90, stabilized angle: 90
+DEBUG:2020-12-07 12:16:26,493: Processing objects.................................
+DEBUG:2020-12-07 12:16:26,494: Detecting objects...
+DEBUG:2020-12-07 12:16:26,553: No object detected
+DEBUG:2020-12-07 12:16:26,554: 17.1 FPS
+DEBUG:2020-12-07 12:16:26,555: Control car...
+DEBUG:2020-12-07 12:16:26,555: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:26,556: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:26,563: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:26,564: Processing objects END..............................
+DEBUG:2020-12-07 12:16:26,695: detecting lane lines...
+DEBUG:2020-12-07 12:16:26,721: detected line_segment:
+DEBUG:2020-12-07 12:16:26,723: [[ 73 232  98 122]] of length 112.80514172678478
+DEBUG:2020-12-07 12:16:26,723: detected line_segment:
+DEBUG:2020-12-07 12:16:26,724: [[216 120 239 166]] of length 51.42956348249516
+DEBUG:2020-12-07 12:16:26,724: detected line_segment:
+DEBUG:2020-12-07 12:16:26,724: [[290 120 319 156]] of length 46.22769732530488
+DEBUG:2020-12-07 12:16:26,725: detected line_segment:
+DEBUG:2020-12-07 12:16:26,725: [[251 195 263 228]] of length 35.11409973215888
+DEBUG:2020-12-07 12:16:26,726: detected line_segment:
+DEBUG:2020-12-07 12:16:26,726: [[240 169 265 237]] of length 72.44998274671983
+DEBUG:2020-12-07 12:16:26,727: detected line_segment:
+DEBUG:2020-12-07 12:16:26,728: [[ 60 219  73 206]] of length 18.384776310850235
+DEBUG:2020-12-07 12:16:26,728: detected line_segment:
+DEBUG:2020-12-07 12:16:26,729: [[ 73 235  75 224]] of length 11.180339887498949
+DEBUG:2020-12-07 12:16:26,730: detected line_segment:
+DEBUG:2020-12-07 12:16:26,730: [[231 151 239 167]] of length 17.88854381999832
+DEBUG:2020-12-07 12:16:26,731: detected line_segment:
+DEBUG:2020-12-07 12:16:26,731: [[290 121 301 134]] of length 17.029386365926403
+DEBUG:2020-12-07 12:16:26,732: detected line_segment:
+DEBUG:2020-12-07 12:16:26,733: [[ 66 203  70 193]] of length 10.770329614269007
+DEBUG:2020-12-07 12:16:26,745: lane lines: [[[65, 240, 101, 120]], [[294, 240, 234, 120]]]
+DEBUG:2020-12-07 12:16:26,748: steering...
+DEBUG:2020-12-07 12:16:26,749: new steering angle: 92
+INFO :2020-12-07 12:16:26,749: Proposed angle: 92, stabilized angle: 92
+DEBUG:2020-12-07 12:16:26,761: Processing objects.................................
+DEBUG:2020-12-07 12:16:26,761: Detecting objects...
+DEBUG:2020-12-07 12:16:26,798: No object detected
+DEBUG:2020-12-07 12:16:26,799: 27.2 FPS
+DEBUG:2020-12-07 12:16:26,799: Control car...
+DEBUG:2020-12-07 12:16:26,799: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:26,800: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:26,803: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:26,803: Processing objects END..............................
+DEBUG:2020-12-07 12:16:26,804: detecting lane lines...
+DEBUG:2020-12-07 12:16:26,813: detected line_segment:
+DEBUG:2020-12-07 12:16:26,814: [[216 120 243 175]] of length 61.26989472816156
+DEBUG:2020-12-07 12:16:26,814: detected line_segment:
+DEBUG:2020-12-07 12:16:26,914: [[ 78 209  99 120]] of length 91.44397191723465
+DEBUG:2020-12-07 12:16:26,915: detected line_segment:
+DEBUG:2020-12-07 12:16:26,915: [[291 121 317 153]] of length 41.23105625617661
+DEBUG:2020-12-07 12:16:26,916: detected line_segment:
+DEBUG:2020-12-07 12:16:26,916: [[ 75 213  75 229]] of length 16.0
+DEBUG:2020-12-07 12:16:26,917: detected line_segment:
+DEBUG:2020-12-07 12:16:26,917: [[242 174 266 239]] of length 69.28924880528002
+DEBUG:2020-12-07 12:16:26,918: detected line_segment:
+DEBUG:2020-12-07 12:16:26,918: [[ 63 208  71 194]] of length 16.1245154965971
+DEBUG:2020-12-07 12:16:26,919: detected line_segment:
+DEBUG:2020-12-07 12:16:26,919: [[ 76 216  79 202]] of length 14.317821063276353
+DEBUG:2020-12-07 12:16:26,919: detected line_segment:
+DEBUG:2020-12-07 12:16:26,920: [[ 66 213  69 204]] of length 9.486832980505138
+DEBUG:2020-12-07 12:16:26,920: detected line_segment:
+DEBUG:2020-12-07 12:16:26,921: [[ 72 198  81 195]] of length 9.486832980505138
+DEBUG:2020-12-07 12:16:26,921: detected line_segment:
+DEBUG:2020-12-07 12:16:26,922: [[290 121 319 156]] of length 45.45327270945405
+DEBUG:2020-12-07 12:16:26,922: detected line_segment:
+DEBUG:2020-12-07 12:16:26,923: [[ 74 238  74 229]] of length 9.0
+DEBUG:2020-12-07 12:16:26,923: detected line_segment:
+DEBUG:2020-12-07 12:16:26,924: [[239 168 247 185]] of length 18.788294228055936
+INFO :2020-12-07 12:16:26,929: skipping vertical line segment (slope=inf): [[ 75 213  75 229]]
+INFO :2020-12-07 12:16:26,933: skipping vertical line segment (slope=inf): [[ 74 238  74 229]]
+DEBUG:2020-12-07 12:16:26,935: lane lines: [[[61, 240, 104, 120]], [[301, 240, 237, 120]]]
+DEBUG:2020-12-07 12:16:26,938: steering...
+DEBUG:2020-12-07 12:16:26,938: new steering angle: 93
+INFO :2020-12-07 12:16:26,938: Proposed angle: 93, stabilized angle: 93
+DEBUG:2020-12-07 12:16:26,948: Processing objects.................................
+DEBUG:2020-12-07 12:16:26,948: Detecting objects...
+DEBUG:2020-12-07 12:16:26,984: No object detected
+DEBUG:2020-12-07 12:16:26,984: 28.4 FPS
+DEBUG:2020-12-07 12:16:26,985: Control car...
+DEBUG:2020-12-07 12:16:26,985: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:26,985: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:26,988: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:26,989: Processing objects END..............................
+DEBUG:2020-12-07 12:16:26,989: detecting lane lines...
+DEBUG:2020-12-07 12:16:26,998: detected line_segment:
+DEBUG:2020-12-07 12:16:26,999: [[219 124 257 210]] of length 94.02127418834527
+DEBUG:2020-12-07 12:16:26,999: detected line_segment:
+DEBUG:2020-12-07 12:16:27,000: [[ 75 224  99 120]] of length 106.73331251301067
+DEBUG:2020-12-07 12:16:27,000: detected line_segment:
+DEBUG:2020-12-07 12:16:27,001: [[290 120 319 156]] of length 46.22769732530488
+DEBUG:2020-12-07 12:16:27,001: detected line_segment:
+DEBUG:2020-12-07 12:16:27,002: [[254 204 265 237]] of length 34.785054261852174
+DEBUG:2020-12-07 12:16:27,002: detected line_segment:
+DEBUG:2020-12-07 12:16:27,003: [[225 136 251 194]] of length 63.56099432828282
+DEBUG:2020-12-07 12:16:27,003: detected line_segment:
+DEBUG:2020-12-07 12:16:27,004: [[259 215 267 239]] of length 25.298221281347036
+DEBUG:2020-12-07 12:16:27,004: detected line_segment:
+DEBUG:2020-12-07 12:16:27,005: [[ 73 235  75 225]] of length 10.198039027185569
+DEBUG:2020-12-07 12:16:27,005: detected line_segment:
+DEBUG:2020-12-07 12:16:27,006: [[295 125 308 141]] of length 20.615528128088304
+DEBUG:2020-12-07 12:16:27,014: lane lines: [[[71, 240, 97, 120]], [[291, 240, 235, 120]]]
+DEBUG:2020-12-07 12:16:27,016: steering...
+DEBUG:2020-12-07 12:16:27,017: new steering angle: 91
+INFO :2020-12-07 12:16:27,017: Proposed angle: 91, stabilized angle: 91
+DEBUG:2020-12-07 12:16:27,024: Processing objects.................................
+DEBUG:2020-12-07 12:16:27,025: Detecting objects...
+DEBUG:2020-12-07 12:16:27,080: No object detected
+DEBUG:2020-12-07 12:16:27,081: 18.0 FPS
+DEBUG:2020-12-07 12:16:27,083: Control car...
+DEBUG:2020-12-07 12:16:27,084: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:27,085: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:27,093: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:27,094: Processing objects END..............................
+DEBUG:2020-12-07 12:16:27,096: detecting lane lines...
+DEBUG:2020-12-07 12:16:27,119: detected line_segment:
+DEBUG:2020-12-07 12:16:27,121: [[217 120 243 174]] of length 59.93329625508679
+DEBUG:2020-12-07 12:16:27,122: detected line_segment:
+DEBUG:2020-12-07 12:16:27,124: [[ 75 225  99 120]] of length 107.70793842609746
+DEBUG:2020-12-07 12:16:27,125: detected line_segment:
+DEBUG:2020-12-07 12:16:27,127: [[243 175 267 239]] of length 68.35202996254024
+DEBUG:2020-12-07 12:16:27,128: detected line_segment:
+DEBUG:2020-12-07 12:16:27,131: [[291 120 319 155]] of length 44.82186966202994
+DEBUG:2020-12-07 12:16:27,132: detected line_segment:
+DEBUG:2020-12-07 12:16:27,137: [[ 59 219  72 204]] of length 19.849433241279208
+DEBUG:2020-12-07 12:16:27,138: detected line_segment:
+DEBUG:2020-12-07 12:16:27,139: [[ 69 197  79 196]] of length 10.04987562112089
+DEBUG:2020-12-07 12:16:27,140: detected line_segment:
+DEBUG:2020-12-07 12:16:27,141: [[ 63 212  66 203]] of length 9.486832980505138
+DEBUG:2020-12-07 12:16:27,160: lane lines: [[[56, 240, 111, 120]], [[294, 240, 234, 120]]]
+DEBUG:2020-12-07 12:16:27,169: steering...
+DEBUG:2020-12-07 12:16:27,170: new steering angle: 94
+INFO :2020-12-07 12:16:27,172: Proposed angle: 94, stabilized angle: 94
+DEBUG:2020-12-07 12:16:27,188: Processing objects.................................
+DEBUG:2020-12-07 12:16:27,189: Detecting objects...
+DEBUG:2020-12-07 12:16:27,246: No object detected
+DEBUG:2020-12-07 12:16:27,247: 17.3 FPS
+DEBUG:2020-12-07 12:16:27,248: Control car...
+DEBUG:2020-12-07 12:16:27,249: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:27,250: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:27,257: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:27,258: Processing objects END..............................
+DEBUG:2020-12-07 12:16:27,259: detecting lane lines...
+DEBUG:2020-12-07 12:16:27,280: detected line_segment:
+DEBUG:2020-12-07 12:16:27,282: [[222 131 245 180]] of length 54.12947441089743
+DEBUG:2020-12-07 12:16:27,282: detected line_segment:
+DEBUG:2020-12-07 12:16:27,284: [[ 93 146  99 120]] of length 26.68332812825267
+DEBUG:2020-12-07 12:16:27,284: detected line_segment:
+DEBUG:2020-12-07 12:16:27,286: [[ 84 184  93 141]] of length 43.93176527297759
+DEBUG:2020-12-07 12:16:27,286: detected line_segment:
+DEBUG:2020-12-07 12:16:27,288: [[290 120 319 156]] of length 46.22769732530488
+DEBUG:2020-12-07 12:16:27,289: detected line_segment:
+DEBUG:2020-12-07 12:16:27,290: [[241 173 253 200]] of length 29.546573405388315
+DEBUG:2020-12-07 12:16:27,291: detected line_segment:
+DEBUG:2020-12-07 12:16:27,292: [[ 73 235  75 224]] of length 11.180339887498949
+DEBUG:2020-12-07 12:16:27,293: detected line_segment:
+DEBUG:2020-12-07 12:16:27,294: [[249 192 259 216]] of length 26.0
+DEBUG:2020-12-07 12:16:27,295: detected line_segment:
+DEBUG:2020-12-07 12:16:27,296: [[255 209 263 229]] of length 21.540659228538015
+DEBUG:2020-12-07 12:16:27,297: detected line_segment:
+DEBUG:2020-12-07 12:16:27,298: [[ 65 215  68 204]] of length 11.40175425099138
+DEBUG:2020-12-07 12:16:27,299: detected line_segment:
+DEBUG:2020-12-07 12:16:27,457: [[ 75 219  84 183]] of length 37.107950630558946
+DEBUG:2020-12-07 12:16:27,458: detected line_segment:
+DEBUG:2020-12-07 12:16:27,460: [[ 63 211  66 203]] of length 8.54400374531753
+DEBUG:2020-12-07 12:16:27,461: detected line_segment:
+DEBUG:2020-12-07 12:16:27,463: [[ 60 218  81 193]] of length 32.64965543462902
+DEBUG:2020-12-07 12:16:27,464: detected line_segment:
+DEBUG:2020-12-07 12:16:27,466: [[259 220 263 230]] of length 10.770329614269007
+DEBUG:2020-12-07 12:16:27,467: detected line_segment:
+DEBUG:2020-12-07 12:16:27,469: [[217 121 223 134]] of length 14.317821063276353
+DEBUG:2020-12-07 12:16:27,470: detected line_segment:
+DEBUG:2020-12-07 12:16:27,472: [[237 164 247 185]] of length 23.259406699226016
+DEBUG:2020-12-07 12:16:27,473: detected line_segment:
+DEBUG:2020-12-07 12:16:27,474: [[293 123 311 145]] of length 28.42534080710379
+DEBUG:2020-12-07 12:16:27,475: detected line_segment:
+DEBUG:2020-12-07 12:16:27,476: [[ 73 197  81 199]] of length 8.246211251235321
+DEBUG:2020-12-07 12:16:27,511: lane lines: [[[66, 240, 98, 120]], [[285, 240, 227, 120]]]
+DEBUG:2020-12-07 12:16:27,518: steering...
+DEBUG:2020-12-07 12:16:27,519: new steering angle: 90
+INFO :2020-12-07 12:16:27,519: Proposed angle: 90, stabilized angle: 90
+DEBUG:2020-12-07 12:16:27,537: Processing objects.................................
+DEBUG:2020-12-07 12:16:27,539: Detecting objects...
+DEBUG:2020-12-07 12:16:27,598: No object detected
+DEBUG:2020-12-07 12:16:27,599: 17.0 FPS
+DEBUG:2020-12-07 12:16:27,600: Control car...
+DEBUG:2020-12-07 12:16:27,600: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:27,601: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:27,608: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:27,609: Processing objects END..............................
+DEBUG:2020-12-07 12:16:27,610: detecting lane lines...
+DEBUG:2020-12-07 12:16:27,631: detected line_segment:
+DEBUG:2020-12-07 12:16:27,633: [[223 132 251 195]] of length 68.94200461257273
+DEBUG:2020-12-07 12:16:27,633: detected line_segment:
+DEBUG:2020-12-07 12:16:27,635: [[ 75 221  89 161]] of length 61.61168720299745
+DEBUG:2020-12-07 12:16:27,635: detected line_segment:
+DEBUG:2020-12-07 12:16:27,637: [[217 121 225 138]] of length 18.788294228055936
+DEBUG:2020-12-07 12:16:27,637: detected line_segment:
+DEBUG:2020-12-07 12:16:27,639: [[290 120 319 156]] of length 46.22769732530488
+DEBUG:2020-12-07 12:16:27,639: detected line_segment:
+DEBUG:2020-12-07 12:16:27,641: [[ 91 153  98 122]] of length 31.78049716414141
+DEBUG:2020-12-07 12:16:27,642: detected line_segment:
+DEBUG:2020-12-07 12:16:27,643: [[255 205 265 237]] of length 33.52610922848042
+DEBUG:2020-12-07 12:16:27,644: detected line_segment:
+DEBUG:2020-12-07 12:16:27,645: [[ 73 235  75 224]] of length 11.180339887498949
+DEBUG:2020-12-07 12:16:27,646: detected line_segment:
+DEBUG:2020-12-07 12:16:27,647: [[ 67 212  70 204]] of length 8.54400374531753
+DEBUG:2020-12-07 12:16:27,648: detected line_segment:
+DEBUG:2020-12-07 12:16:27,649: [[ 65 215  68 207]] of length 8.54400374531753
+DEBUG:2020-12-07 12:16:27,650: detected line_segment:
+DEBUG:2020-12-07 12:16:27,651: [[248 189 257 214]] of length 26.570660511172846
+DEBUG:2020-12-07 12:16:27,652: detected line_segment:
+DEBUG:2020-12-07 12:16:27,653: [[254 236 265 238]] of length 11.180339887498949
+DEBUG:2020-12-07 12:16:27,654: detected line_segment:
+DEBUG:2020-12-07 12:16:27,655: [[ 79 208  81 198]] of length 10.198039027185569
+DEBUG:2020-12-07 12:16:27,656: detected line_segment:
+DEBUG:2020-12-07 12:16:27,658: [[300 132 311 145]] of length 17.029386365926403
+DEBUG:2020-12-07 12:16:27,683: lane lines: [[[68, 240, 97, 120]], [[291, 240, 226, 120]]]
+DEBUG:2020-12-07 12:16:27,689: steering...
+DEBUG:2020-12-07 12:16:27,875: new steering angle: 90
+INFO :2020-12-07 12:16:27,876: Proposed angle: 90, stabilized angle: 90
+DEBUG:2020-12-07 12:16:27,890: Processing objects.................................
+DEBUG:2020-12-07 12:16:27,891: Detecting objects...
+DEBUG:2020-12-07 12:16:27,953: No object detected
+DEBUG:2020-12-07 12:16:27,954: 16.2 FPS
+DEBUG:2020-12-07 12:16:27,955: Control car...
+DEBUG:2020-12-07 12:16:27,956: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:27,957: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:27,964: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:27,965: Processing objects END..............................
+DEBUG:2020-12-07 12:16:27,967: detecting lane lines...
+DEBUG:2020-12-07 12:16:27,988: detected line_segment:
+DEBUG:2020-12-07 12:16:27,990: [[231 148 263 227]] of length 85.23496934944014
+DEBUG:2020-12-07 12:16:27,992: detected line_segment:
+DEBUG:2020-12-07 12:16:27,993: [[ 75 221  93 145]] of length 78.10249675906654
+DEBUG:2020-12-07 12:16:27,994: detected line_segment:
+DEBUG:2020-12-07 12:16:27,995: [[291 120 319 156]] of length 45.60701700396552
+DEBUG:2020-12-07 12:16:27,996: detected line_segment:
+DEBUG:2020-12-07 12:16:27,998: [[261 225 266 238]] of length 13.92838827718412
+DEBUG:2020-12-07 12:16:27,998: detected line_segment:
+DEBUG:2020-12-07 12:16:28,000: [[216 120 231 149]] of length 32.64965543462902
+DEBUG:2020-12-07 12:16:28,002: detected line_segment:
+DEBUG:2020-12-07 12:16:28,004: [[ 75 227  77 215]] of length 12.165525060596439
+DEBUG:2020-12-07 12:16:28,005: detected line_segment:
+DEBUG:2020-12-07 12:16:28,006: [[ 60 218  71 204]] of length 17.804493814764857
+DEBUG:2020-12-07 12:16:28,007: detected line_segment:
+DEBUG:2020-12-07 12:16:28,009: [[237 161 257 210]] of length 52.92447448959697
+DEBUG:2020-12-07 12:16:28,009: detected line_segment:
+DEBUG:2020-12-07 12:16:28,011: [[ 67 212  70 204]] of length 8.54400374531753
+DEBUG:2020-12-07 12:16:28,011: detected line_segment:
+DEBUG:2020-12-07 12:16:28,013: [[ 75 238  75 222]] of length 16.0
+INFO :2020-12-07 12:16:28,033: skipping vertical line segment (slope=inf): [[ 75 238  75 222]]
+DEBUG:2020-12-07 12:16:28,034: lane lines: [[[66, 240, 100, 120]], [[283, 240, 227, 120]]]
+DEBUG:2020-12-07 12:16:28,041: steering...
+DEBUG:2020-12-07 12:16:28,042: new steering angle: 90
+INFO :2020-12-07 12:16:28,042: Proposed angle: 90, stabilized angle: 90
+DEBUG:2020-12-07 12:16:28,056: Processing objects.................................
+DEBUG:2020-12-07 12:16:28,057: Detecting objects...
+DEBUG:2020-12-07 12:16:28,112: No object detected
+DEBUG:2020-12-07 12:16:28,113: 18.2 FPS
+DEBUG:2020-12-07 12:16:28,114: Control car...
+DEBUG:2020-12-07 12:16:28,115: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:28,115: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:28,122: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:28,123: Processing objects END..............................
+DEBUG:2020-12-07 12:16:28,124: detecting lane lines...
+DEBUG:2020-12-07 12:16:28,145: detected line_segment:
+DEBUG:2020-12-07 12:16:28,146: [[ 75 224  99 120]] of length 106.73331251301067
+DEBUG:2020-12-07 12:16:28,147: detected line_segment:
+DEBUG:2020-12-07 12:16:28,148: [[291 120 319 155]] of length 44.82186966202994
+DEBUG:2020-12-07 12:16:28,149: detected line_segment:
+DEBUG:2020-12-07 12:16:28,150: [[231 148 255 205]] of length 61.84658438426491
+DEBUG:2020-12-07 12:16:28,151: detected line_segment:
+DEBUG:2020-12-07 12:16:28,152: [[217 120 222 132]] of length 13.0
+DEBUG:2020-12-07 12:16:28,153: detected line_segment:
+DEBUG:2020-12-07 12:16:28,154: [[225 136 248 189]] of length 57.77542730261716
+DEBUG:2020-12-07 12:16:28,155: detected line_segment:
+DEBUG:2020-12-07 12:16:28,156: [[257 210 266 238]] of length 29.410882339705484
+DEBUG:2020-12-07 12:16:28,156: detected line_segment:
+DEBUG:2020-12-07 12:16:28,158: [[ 75 226  77 216]] of length 10.198039027185569
+DEBUG:2020-12-07 12:16:28,158: detected line_segment:
+DEBUG:2020-12-07 12:16:28,159: [[ 73 236  75 227]] of length 9.219544457292887
+DEBUG:2020-12-07 12:16:28,160: detected line_segment:
+DEBUG:2020-12-07 12:16:28,161: [[ 70 198  79 196]] of length 9.219544457292887
+DEBUG:2020-12-07 12:16:28,162: detected line_segment:
+DEBUG:2020-12-07 12:16:28,163: [[ 79 209  81 199]] of length 10.198039027185569
+DEBUG:2020-12-07 12:16:28,164: detected line_segment:
+DEBUG:2020-12-07 12:16:28,165: [[ 63 210  71 194]] of length 17.88854381999832
+DEBUG:2020-12-07 12:16:28,165: detected line_segment:
+DEBUG:2020-12-07 12:16:28,167: [[223 132 226 140]] of length 8.54400374531753
+DEBUG:2020-12-07 12:16:28,189: lane lines: [[[67, 240, 102, 120]], [[277, 240, 226, 120]]]
+DEBUG:2020-12-07 12:16:28,196: steering...
+DEBUG:2020-12-07 12:16:28,196: new steering angle: 90
+INFO :2020-12-07 12:16:28,197: Proposed angle: 90, stabilized angle: 90
+DEBUG:2020-12-07 12:16:28,209: Processing objects.................................
+DEBUG:2020-12-07 12:16:28,210: Detecting objects...
+DEBUG:2020-12-07 12:16:28,265: No object detected
+DEBUG:2020-12-07 12:16:28,265: 18.2 FPS
+DEBUG:2020-12-07 12:16:28,266: Control car...
+DEBUG:2020-12-07 12:16:28,267: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:28,268: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:28,275: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:28,276: Processing objects END..............................
+DEBUG:2020-12-07 12:16:28,277: detecting lane lines...
+DEBUG:2020-12-07 12:16:28,297: detected line_segment:
+DEBUG:2020-12-07 12:16:28,299: [[ 79 209  97 124]] of length 86.88498144098322
+DEBUG:2020-12-07 12:16:28,300: detected line_segment:
+DEBUG:2020-12-07 12:16:28,301: [[216 120 220 128]] of length 8.94427190999916
+DEBUG:2020-12-07 12:16:28,302: detected line_segment:
+DEBUG:2020-12-07 12:16:28,303: [[239 165 265 232]] of length 71.8679344353238
+DEBUG:2020-12-07 12:16:28,303: detected line_segment:
+DEBUG:2020-12-07 12:16:28,305: [[292 121 318 155]] of length 42.80186911806539
+DEBUG:2020-12-07 12:16:28,305: detected line_segment:
+DEBUG:2020-12-07 12:16:28,307: [[ 75 226  79 203]] of length 23.345235059857504
+DEBUG:2020-12-07 12:16:28,307: detected line_segment:
+DEBUG:2020-12-07 12:16:28,308: [[217 120 240 169]] of length 54.12947441089743
+DEBUG:2020-12-07 12:16:28,309: detected line_segment:
+DEBUG:2020-12-07 12:16:28,310: [[ 70 197  81 196]] of length 11.045361017187261
+DEBUG:2020-12-07 12:16:28,311: detected line_segment:
+DEBUG:2020-12-07 12:16:28,312: [[ 58 219  72 204]] of length 20.518284528683193
+DEBUG:2020-12-07 12:16:28,313: detected line_segment:
+DEBUG:2020-12-07 12:16:28,314: [[ 74 238  75 227]] of length 11.045361017187261
+DEBUG:2020-12-07 12:16:28,315: detected line_segment:
+DEBUG:2020-12-07 12:16:28,316: [[259 219 266 238]] of length 20.248456731316587
+DEBUG:2020-12-07 12:16:28,336: lane lines: [[[69, 240, 96, 120]], [[284, 240, 228, 120]]]
+DEBUG:2020-12-07 12:16:28,342: steering...
+DEBUG:2020-12-07 12:16:28,343: new steering angle: 90
+INFO :2020-12-07 12:16:28,344: Proposed angle: 90, stabilized angle: 90
+DEBUG:2020-12-07 12:16:28,359: Processing objects.................................
+DEBUG:2020-12-07 12:16:28,360: Detecting objects...
+DEBUG:2020-12-07 12:16:28,416: No object detected
+DEBUG:2020-12-07 12:16:28,417: 17.9 FPS
+DEBUG:2020-12-07 12:16:28,418: Control car...
+DEBUG:2020-12-07 12:16:28,419: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:28,419: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:28,530: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:28,532: Processing objects END..............................
+DEBUG:2020-12-07 12:16:28,534: detecting lane lines...
+DEBUG:2020-12-07 12:16:28,558: detected line_segment:
+DEBUG:2020-12-07 12:16:28,560: [[ 75 225  99 120]] of length 107.70793842609746
+DEBUG:2020-12-07 12:16:28,560: detected line_segment:
+DEBUG:2020-12-07 12:16:28,562: [[235 156 264 231]] of length 80.4114419718985
+DEBUG:2020-12-07 12:16:28,563: detected line_segment:
+DEBUG:2020-12-07 12:16:28,564: [[291 120 319 155]] of length 44.82186966202994
+DEBUG:2020-12-07 12:16:28,565: detected line_segment:
+DEBUG:2020-12-07 12:16:28,567: [[261 224 266 238]] of length 14.866068747318506
+DEBUG:2020-12-07 12:16:28,568: detected line_segment:
+DEBUG:2020-12-07 12:16:28,570: [[216 120 233 152]] of length 36.235341863986875
+DEBUG:2020-12-07 12:16:28,572: detected line_segment:
+DEBUG:2020-12-07 12:16:28,574: [[ 58 217  73 205]] of length 19.209372712298546
+DEBUG:2020-12-07 12:16:28,576: detected line_segment:
+DEBUG:2020-12-07 12:16:28,578: [[243 174 263 226]] of length 55.71355310873648
+DEBUG:2020-12-07 12:16:28,579: detected line_segment:
+DEBUG:2020-12-07 12:16:28,582: [[ 70 198  79 196]] of length 9.219544457292887
+DEBUG:2020-12-07 12:16:28,584: detected line_segment:
+DEBUG:2020-12-07 12:16:28,586: [[ 73 239  75 228]] of length 11.180339887498949
+DEBUG:2020-12-07 12:16:28,608: lane lines: [[[65, 240, 109, 120]], [[283, 240, 229, 120]]]
+DEBUG:2020-12-07 12:16:28,614: steering...
+DEBUG:2020-12-07 12:16:28,615: new steering angle: 92
+INFO :2020-12-07 12:16:28,616: Proposed angle: 92, stabilized angle: 92
+DEBUG:2020-12-07 12:16:28,628: Processing objects.................................
+DEBUG:2020-12-07 12:16:28,629: Detecting objects...
+DEBUG:2020-12-07 12:16:28,681: No object detected
+DEBUG:2020-12-07 12:16:28,682: 18.9 FPS
+DEBUG:2020-12-07 12:16:28,683: Control car...
+DEBUG:2020-12-07 12:16:28,684: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:28,685: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:28,692: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:28,692: Processing objects END..............................
+DEBUG:2020-12-07 12:16:28,694: detecting lane lines...
+DEBUG:2020-12-07 12:16:28,726: detected line_segment:
+DEBUG:2020-12-07 12:16:28,727: [[235 157 261 221]] of length 69.07966415668217
+DEBUG:2020-12-07 12:16:28,728: detected line_segment:
+DEBUG:2020-12-07 12:16:28,843: [[ 75 221  91 153]] of length 69.85699678629192
+DEBUG:2020-12-07 12:16:28,844: detected line_segment:
+DEBUG:2020-12-07 12:16:28,847: [[290 120 313 148]] of length 36.235341863986875
+DEBUG:2020-12-07 12:16:28,848: detected line_segment:
+DEBUG:2020-12-07 12:16:28,849: [[255 207 263 229]] of length 23.40939982143925
+DEBUG:2020-12-07 12:16:28,850: detected line_segment:
+DEBUG:2020-12-07 12:16:28,851: [[236 160 252 200]] of length 43.08131845707603
+DEBUG:2020-12-07 12:16:28,853: detected line_segment:
+DEBUG:2020-12-07 12:16:28,855: [[ 89 160  99 120]] of length 41.23105625617661
+DEBUG:2020-12-07 12:16:28,857: detected line_segment:
+DEBUG:2020-12-07 12:16:28,860: [[216 120 235 158]] of length 42.485291572496
+DEBUG:2020-12-07 12:16:28,862: detected line_segment:
+DEBUG:2020-12-07 12:16:28,865: [[306 140 319 156]] of length 20.615528128088304
+DEBUG:2020-12-07 12:16:28,867: detected line_segment:
+DEBUG:2020-12-07 12:16:28,869: [[ 73 235  75 223]] of length 12.165525060596439
+DEBUG:2020-12-07 12:16:28,871: detected line_segment:
+DEBUG:2020-12-07 12:16:28,872: [[261 226 265 238]] of length 12.649110640673518
+DEBUG:2020-12-07 12:16:28,873: detected line_segment:
+DEBUG:2020-12-07 12:16:28,874: [[ 62 216  65 205]] of length 11.40175425099138
+DEBUG:2020-12-07 12:16:28,897: lane lines: [[[67, 240, 94, 120]], [[287, 240, 232, 120]]]
+DEBUG:2020-12-07 12:16:28,905: steering...
+DEBUG:2020-12-07 12:16:28,906: new steering angle: 90
+INFO :2020-12-07 12:16:28,906: Proposed angle: 90, stabilized angle: 90
+DEBUG:2020-12-07 12:16:28,920: Processing objects.................................
+DEBUG:2020-12-07 12:16:28,921: Detecting objects...
+DEBUG:2020-12-07 12:16:28,975: No object detected
+DEBUG:2020-12-07 12:16:28,976: 18.4 FPS
+DEBUG:2020-12-07 12:16:28,977: Control car...
+DEBUG:2020-12-07 12:16:28,978: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:28,978: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:28,985: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:28,986: Processing objects END..............................
+DEBUG:2020-12-07 12:16:28,987: detecting lane lines...
+DEBUG:2020-12-07 12:16:29,009: detected line_segment:
+DEBUG:2020-12-07 12:16:29,010: [[ 73 232  99 120]] of length 114.97825881443848
+DEBUG:2020-12-07 12:16:29,011: detected line_segment:
+DEBUG:2020-12-07 12:16:29,012: [[217 121 243 175]] of length 59.93329625508679
+DEBUG:2020-12-07 12:16:29,013: detected line_segment:
+DEBUG:2020-12-07 12:16:29,162: [[291 121 317 153]] of length 41.23105625617661
+DEBUG:2020-12-07 12:16:29,162: detected line_segment:
+DEBUG:2020-12-07 12:16:29,164: [[243 176 265 237]] of length 64.8459713474939
+DEBUG:2020-12-07 12:16:29,165: detected line_segment:
+DEBUG:2020-12-07 12:16:29,166: [[ 59 219  71 204]] of length 19.209372712298546
+DEBUG:2020-12-07 12:16:29,167: detected line_segment:
+DEBUG:2020-12-07 12:16:29,169: [[ 73 235  75 225]] of length 10.198039027185569
+DEBUG:2020-12-07 12:16:29,170: detected line_segment:
+DEBUG:2020-12-07 12:16:29,172: [[ 75 219  77 210]] of length 9.219544457292887
+DEBUG:2020-12-07 12:16:29,173: detected line_segment:
+DEBUG:2020-12-07 12:16:29,174: [[ 57 218  73 206]] of length 20.0
+DEBUG:2020-12-07 12:16:29,201: lane lines: [[[66, 240, 104, 120]], [[293, 240, 234, 120]]]
+DEBUG:2020-12-07 12:16:29,207: steering...
+DEBUG:2020-12-07 12:16:29,208: new steering angle: 92
+INFO :2020-12-07 12:16:29,209: Proposed angle: 92, stabilized angle: 92
+DEBUG:2020-12-07 12:16:29,225: Processing objects.................................
+DEBUG:2020-12-07 12:16:29,226: Detecting objects...
+DEBUG:2020-12-07 12:16:29,284: No object detected
+DEBUG:2020-12-07 12:16:29,284: 17.4 FPS
+DEBUG:2020-12-07 12:16:29,285: Control car...
+DEBUG:2020-12-07 12:16:29,286: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:29,287: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:29,294: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:29,295: Processing objects END..............................
+DEBUG:2020-12-07 12:16:29,296: detecting lane lines...
+DEBUG:2020-12-07 12:16:29,329: detected line_segment:
+DEBUG:2020-12-07 12:16:29,330: [[245 182 257 211]] of length 31.38470965295043
+DEBUG:2020-12-07 12:16:29,331: detected line_segment:
+DEBUG:2020-12-07 12:16:29,332: [[ 75 224  99 120]] of length 106.73331251301067
+DEBUG:2020-12-07 12:16:29,333: detected line_segment:
+DEBUG:2020-12-07 12:16:29,334: [[216 120 241 171]] of length 56.79788728465171
+DEBUG:2020-12-07 12:16:29,335: detected line_segment:
+DEBUG:2020-12-07 12:16:29,336: [[291 121 317 153]] of length 41.23105625617661
+DEBUG:2020-12-07 12:16:29,336: detected line_segment:
+DEBUG:2020-12-07 12:16:29,338: [[ 73 235  75 225]] of length 10.198039027185569
+DEBUG:2020-12-07 12:16:29,338: detected line_segment:
+DEBUG:2020-12-07 12:16:29,340: [[237 164 247 185]] of length 23.259406699226016
+DEBUG:2020-12-07 12:16:29,340: detected line_segment:
+DEBUG:2020-12-07 12:16:29,341: [[259 219 265 233]] of length 15.231546211727817
+DEBUG:2020-12-07 12:16:29,342: detected line_segment:
+DEBUG:2020-12-07 12:16:29,343: [[ 75 219  77 210]] of length 9.219544457292887
+DEBUG:2020-12-07 12:16:29,344: detected line_segment:
+DEBUG:2020-12-07 12:16:29,345: [[255 208 263 227]] of length 20.615528128088304
+DEBUG:2020-12-07 12:16:29,346: detected line_segment:
+DEBUG:2020-12-07 12:16:29,347: [[ 63 213  71 204]] of length 12.041594578792296
+DEBUG:2020-12-07 12:16:29,348: detected line_segment:
+DEBUG:2020-12-07 12:16:29,349: [[ 58 219  67 211]] of length 12.041594578792296
+DEBUG:2020-12-07 12:16:29,350: detected line_segment:
+DEBUG:2020-12-07 12:16:29,351: [[253 236 265 238]] of length 12.165525060596439
+DEBUG:2020-12-07 12:16:29,351: detected line_segment:
+DEBUG:2020-12-07 12:16:29,353: [[310 145 319 156]] of length 14.212670403551895
+DEBUG:2020-12-07 12:16:29,376: lane lines: [[[66, 240, 104, 120]], [[291, 240, 222, 120]]]
+DEBUG:2020-12-07 12:16:29,383: steering...
+DEBUG:2020-12-07 12:16:29,384: new steering angle: 90
+INFO :2020-12-07 12:16:29,385: Proposed angle: 90, stabilized angle: 90
+DEBUG:2020-12-07 12:16:29,402: Processing objects.................................
+DEBUG:2020-12-07 12:16:29,404: Detecting objects...
+DEBUG:2020-12-07 12:16:29,462: No object detected
+DEBUG:2020-12-07 12:16:29,462: 17.4 FPS
+DEBUG:2020-12-07 12:16:29,463: Control car...
+DEBUG:2020-12-07 12:16:29,464: No objects detected, drive at speed limit of 15.
+DEBUG:2020-12-07 12:16:29,465: Actually setting car speed to 15
+DEBUG:2020-12-07 12:16:29,472: Current Speed = 15, New Speed = 15
+DEBUG:2020-12-07 12:16:29,473: Processing objects END..............................
+DEBUG:2020-12-07 12:16:29,474: detecting lane lines...
+DEBUG:2020-12-07 12:16:29,512: detected line_segment:
+DEBUG:2020-12-07 12:16:29,514: [[ 73 233  99 120]] of length 115.95257651298655
+DEBUG:2020-12-07 12:16:29,514: detected line_segment:
+DEBUG:2020-12-07 12:16:29,516: [[227 140 257 211]] of length 77.07788269017254
+DEBUG:2020-12-07 12:16:29,517: detected line_segment:
+DEBUG:2020-12-07 12:16:29,518: [[291 121 317 153]] of length 41.23105625617661
+DEBUG:2020-12-07 12:16:29,519: detected line_segment:
+DEBUG:2020-12-07 12:16:29,520: [[249 193 263 228]] of length 37.69615364994153
+DEBUG:2020-12-07 12:16:29,521: detected line_segment:
+DEBUG:2020-12-07 12:16:29,522: [[221 128 227 142]] of length 15.231546211727817
+DEBUG:2020-12-07 12:16:29,523: detected line_segment:
+DEBUG:2020-12-07 12:16:29,525: [[290 121 316 152]] of length 40.45985664828782
+DEBUG:2020-12-07 12:16:29,525: detected line_segment:
+DEBUG:2020-12-07 12:16:29,527: [[ 57 218  71 204]] of length 19.79898987322333
+DEBUG:2020-12-07 12:16:29,528: detected line_segment:
+DEBUG:2020-12-07 12:16:29,529: [[ 58 219  72 208]] of length 17.804493814764857
+DEBUG:2020-12-07 12:16:29,530: detected line_segment:
+DEBUG:2020-12-07 12:16:29,531: [[261 221 263 234]] of length 13.152946437965905
+DEBUG:2020-12-07 12:16:29,532: detected line_segment:
+DEBUG:2020-12-07 12:16:29,533: [[ 75 220  77 210]] of length 10.198039027185569
+DEBUG:2020-12-07 12:16:29,534: detected line_segment:
+DEBUG:2020-12-07 12:16:29,538: [[217 121 221 130]] of length 9.848857801796104
+DEBUG:2020-12-07 12:16:29,539: detected line_segment:
+DEBUG:2020-12-07 12:16:29,541: [[254 236 265 238]] of length 11.180339887498949
+DEBUG:2020-12-07 12:16:29,542: detected line_segment:
+DEBUG:2020-12-07 12:16:29,543: [[ 63 207  73 196]] of length 14.866068747318506
+DEBUG:2020-12-07 12:16:29,578: lane lines: [[[62, 240, 111, 120]], [[282, 240, 231, 120]]]
+DEBUG:2020-12-07 12:16:29,585: steering...
+DEBUG:2020-12-07 12:16:29,586: new steering angle: 93
+INFO :2020-12-07 12:16:29,587: Proposed angle: 93, stabilized angle: 93
+INFO :2020-12-07 12:16:29,601: Stopping the car, resetting hardware.
+INFO :2020-12-07 12:16:29,622: Stopping the car, resetting hardware.
+>>> 
